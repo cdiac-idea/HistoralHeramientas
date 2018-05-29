@@ -1,0 +1,99 @@
+<!-- ###TEMPLATE_FORM1### begin -->
+<h3>SOLICITAR PRACTICANTE FACULTAD DE ADMINISTRACIÓN</h3>
+<b><h5>Los campos con * son obligatorios.</h5></b>
+<form action="###REL_URL###" id="projektform" method="post" class="formhandler">
+ <dl>
+ <dt><label for="sender_name">Nombre de la empresa*</label></dt>
+  <dd>
+   <input type="text" name="formhandler[sender_name]" id="sender_name"
+          value="###value_sender_name###" class="required invalid" size="51" aria-required="true" required="required" aria-invalid="true" />
+  </dd>
+ <dt><label for="sender_nit">NIT*</label></dt>
+  <dd>
+   <input type="text" name="formhandler[sender_nit]" id="sender_nit"
+          value="###value_sender_nit###" size="51" aria-required="true" required="required" aria-invalid="true" />
+  </dd>  
+  </dd>
+ <dt><label for="sender_nit">Nombre contacto*</label></dt>
+  <dd>
+   <input type="text" name="formhandler[sender_contact]" id="sender_contact"
+          value="###value_sender_contact###" size="51" aria-required="true" required="required" aria-invalid="true" />
+  </dd> 
+ <dt><label for="sender_telefono">Telefono*</label></dt>
+  <dd>
+   <input type="text" name="formhandler[sender_telefono]" id="sender_telefono"
+          value="###value_sender_telefono###" size="51" aria-required="true" required="required" aria-invalid="true" />
+  </dd>  
+ <dt><label for="sender_celular">Celular*</label></dt>
+  <dd>
+   <input type="text" name="formhandler[sender_celular]" id="sender_celular"
+          value="###value_sender_celular###" size="51" aria-required="true" required="required" aria-invalid="true" />
+  </dd>  
+ <dt><label for="sender_direccion">Dirección*</label></dt>
+  <dd>
+   <input type="text" name="formhandler[sender_direccion]" id="sender_direccion"
+          value="###value_sender_direccion###" size="51" aria-required="true" required="required" aria-invalid="true" />
+  </dd>  
+ <dt><label for="sender_email">Correo Electrónico*</label></dt>
+  <dd>
+   <input type="text" name="formhandler[sender_email]" id="sender_email"
+          value="###value_sender_email###" size="51" aria-required="true" required="required" aria-invalid="true" />
+  </dd>  
+ <dt><label for="sender_programa">Programa Curricular*</label></dt>
+  <dd>
+	<select name="formhandler[sender_programa]" id="sender_programa">
+		<option value="Administracion de empresas">Administracion de empresas</option>
+		<option value="Administracion de sistemas informaticos">Administracion de sistemas informaticos</option>
+		<option value="Gestion Cultural y comunicativa">Gestion Cultural y comunicativa</option>
+	</select>
+  </dd>  
+ <dt><label for="sender_contrato">Tipo de contrato*</label></dt>
+  <dd>
+	<select name="formhandler[sender_contrato]" id="sender_contrato">
+		<option value="Convenio">Convenio</option>
+		<option value="Cuota Sena">Cuota Sena</option>
+	</select>
+	<p><h6>Los practicantes empresariales deben contar con un contrato de aprendizaje, ya sea el establecido como "Cuota Sena", o bajo un convenio entre la Universidad y la Empresa</h6></p>
+  </dd>  
+   <dt><label for="sender_remuneracion">Remuneración*</label></dt>
+  <dd>
+	<select name="formhandler[sender_remuneracion]" id="sender_remuneracion">
+		<option value="Si">Si</option>
+		<option value="No">No</option>
+		<option value="Sin definir">Sin definir</option>
+	</select>
+  </dd>  
+  <dt><label for="Message">Perfil del estudiante*</label></dt>
+  <dd>
+   <textarea name="formhandler[message]" id="message" cols="50" rows="10" class="required invalid" aria-required="true" required="required" aria-invalid="true">###value_profile###</textarea>
+  </dd>
+  <dt><label for="Message">Realice una descripción de las funciones o el proyecto en el cual el estudiante desarrollaría su práctica*</label></dt>
+  <dd>
+   <textarea name="formhandler[message]" id="message" cols="50" rows="10" class="required invalid" aria-required="true" required="required" aria-invalid="true">###value_description###</textarea>
+  </dd>
+ </dl>
+ <input type="submit" value="Enviar Email" ###submit_nextStep### />
+</form>
+<!-- ###TEMPLATE_FORM1### end -->
+
+<!-- ###TEMPLATE_SUBMITTEDOK### begin -->
+<p>La solicitud ha sido enviado</p>
+<!-- ###TEMPLATE_SUBMITTEDOK### end -->
+
+<!-- ###TEMPLATE_EMAIL_ADMIN_PLAIN### begin -->
+La siguiente solicitud de practicante ha sido enviado a usted:
+Enviado por: ###value_sender_name### 
+NIT: ###value_sender_nit###
+Nombre Contacto: ###value_sender_contact###
+Teléfono: ###value_sender_telefono###
+Celular: ###value_sender_celular###
+Dirección: ###value_sender_direccion###
+Correo electrónico: ###value_sender_email###
+Programa curricular: 
+Tipo de contrato: 
+Remuneración: 
+Perfil de estudiante:
+###value_profile###
+Descripción:
+###value_description###
+<!-- ###TEMPLATE_EMAIL_ADMIN_PLAIN### end -->

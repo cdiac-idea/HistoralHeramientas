@@ -1,0 +1,166 @@
+/* Inclusión de fuentes */
+@font-face {font-family:'Ancizar sans';src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold_italic-webfont.eot');src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold_italic-webfont.eot?#iefix') format('embedded-opentype'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold_italic-webfont.woff') format('woff'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold_italic-webfont.ttf') format('truetype'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold_italic-webfont.svg#ancizar_sansbold_italic') format('svg');font-weight:bold;font-style:italic}
+@font-face {font-family:'Ancizar sans';src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold-webfont.eot');src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold-webfont.woff') format('woff'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold-webfont.ttf') format('truetype'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold-webfont.svg#ancizar_sans_boldbold') format('svg');font-weight:bold;font-style:normal}
+@font-face {font-family:'Ancizar sans';src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_italic-webfont.eot');src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_italic-webfont.eot?#iefix') format('embedded-opentype'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_italic-webfont.woff') format('woff'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_italic-webfont.ttf') format('truetype'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_italic-webfont.svg#ancizar_sansregular_italic') format('svg');font-weight:normal;font-style:italic}
+@font-face {font-family:'Ancizar sans';src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_regular-webfont.eot');src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_regular-webfont.woff') format('woff'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_regular-webfont.ttf') format('truetype'), url('http://unal.edu.co/fileadmin/templates/fonts/ancizarsans_regular-webfont.svg#ancizar_sansregular') format('svg');font-weight:normal;font-style:normal}
+@font-face {font-family:'Ancizar serif';src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold_italic-webfont.eot');src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold_italic-webfont.woff') format('woff'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold_italic-webfont.ttf') format('truetype'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold_italic-webfont.svg#ancizar_serifbold_italic') format('svg');font-weight:bold;font-style:italic}
+@font-face {font-family:'Ancizar serif';src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold-webfont.eot');src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold-webfont.eot?#iefix') format('embedded-opentype'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold-webfont.woff') format('woff'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold-webfont.ttf') format('truetype'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold-webfont.svg#ancizar_serif_boldbold') format('svg');font-weight:bold;font-style:normal}
+@font-face {font-family:'Ancizar serif';src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_italic-webfont.eot');src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_italic-webfont.eot?#iefix') format('embedded-opentype'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_italic-webfont.woff') format('woff'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_italic-webfont.ttf') format('truetype'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_italic-webfont.svg#ancizar_serifregular_italic') format('svg');font-weight:normal;font-style:italic}
+@font-face {font-family:'Ancizar serif';src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_regular-webfont.eot');src:url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_regular-webfont.eot?#iefix') format('embedded-opentype'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_regular-webfont.woff') format('woff'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_regular-webfont.ttf') format('truetype'),  url('http://unal.edu.co/fileadmin/templates/fonts/ancizarserif_regular-webfont.svg#ancizar_serif_regularregular') format('svg');font-weight:normal;font-style:normal}/* Global styles for generic tags */
+/** asignacion de fuentes y comportamiento predeterminado en etiquetas globales*/
+body{background-color:#DDD;font-family:"Ancizar sans", Tahoma, Geneva, sans-serif}
+*{font-family:"Ancizar sans", Tahoma, Geneva, sans-serif}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Ancizar serif", "MS Serif", "New York", serif;font-weight:normal}
+h1,h2,h3,p,ul,ol,pre,dl{font-weight:normal;margin-bottom:.5em}
+p{line-height:1.3em}
+main p{line-height:1.5em}
+a{color:#50992E}
+a:hover{text-decoration:none}
+ol{list-style:decimal outside none}
+li a{font-size:1em}
+table tr{padding:.25em .5em;text-align:left;font-family:'Arial'}
+/** Cabezote*/
+#unalTop{position:relative;z-index:1}
+#unalTop .firstMenu{background:#666;height:30px}
+#unalTop .navbar-default{background:transparent;float:right}
+#unalTop .dropdown-menu{padding:0}
+#unalTop .navbar-nav{border-left:1px solid #3d3d3d}
+#unalTop .navbar-nav>li{-moz-transition:background .5s, color .5s, border .5s;-ms-transition:background .5s, color .5s, border .5s;-o-transition:background .5s, color .5s, border .5s;-webkit-transition:background .5s, color .5s, border .5s;border-right:1px solid #3d3d3d;transition:background .5s, color .5s, border .5s}
+#unalTop .navbar-nav>li:hover{-moz-transition:background .5s, color .5s, border .5s;-ms-transition:background .5s, color .5s, border .5s;-o-transition:background .5s, color .5s, border .5s;-webkit-transition:background .5s, color .5s, border .5s;transition:background .5s, color .5s, border .5s}
+#unalTop .navbar-nav>li>.dropdown-menu{width:14em}
+#unalTop .navbar-nav>li:last-child{border-right:1px solid #333}
+#unalTop .navbar-nav>li a{color:#fff;padding:6px 10px 4px;text-shadow:none}
+#unalTop .navbar-nav>li a:hover{color:#333!important;text-decoration:none!important}
+#unalTop .navbar-nav>li.active>a{background:no-repeat center bottom url(../images/user_selected.png)!important;color:#000!important;font-weight:bold}
+#unalTop .item_Aspirantes:hover,#unalTop .navbar-nav>.item_Aspirantes.active,.navbar-default #unalTop .navbar-nav>.item_Aspirantes.active:hover{background:#fD0;border-left:1px solid #ffee80!important;border-right:1px solid #998400!important}
+#unalTop .item_Estudiantes:hover,#unalTop .navbar-nav>.item_Estudiantes.active,.navbar-default #unalTop .navbar-nav>.item_Estudiantes.active:hover{background:#ffb600;border-left:1px solid #ffda80!important;border-right:1px solid #996d00!important}
+#unalTop .item_Egresados:hover,#unalTop .navbar-nav>.item_Egresados.active,.navbar-default #unalTop .navbar-nav>.item_Egresados.active:hover{background:#51b8be;border-left:1px solid #a8dcdf!important;border-right:1px solid #306e71!important}
+#unalTop .item_Docentes:hover,#unalTop .navbar-nav>.item_Docentes.active,.navbar-default #unalTop .navbar-nav>.item_Docentes.active:hover{background:#008c95;border-left:1px solid #80c6cb!important;border-right:1px solid #005459!important}
+#unalTop .item_Administrativos:hover,#unalTop .navbar-nav>.item_Administrativos.active,.navbar-default #unalTop .navbar-nav>.item_Administrativos.active:hover{background:#ff3d30;border-left:1px solid #ff9e98!important;border-right:1px solid #99241d!important}
+#unalTop .logo{-moz-transition:width .5s, height .5s;-ms-transition:width .5s, height .5s;-o-transition:width .5s, height .5s;-webkit-transition:width .5s, height .5s;background:no-repeat url(../images/sealBck.png);float:left;height:135px;margin-left:-10px;position:absolute;text-align:center;transition:width .5s, height .5s;width:234px;z-index:2}
+#unalTop .logo img{-moz-transition:width .5s, height .5s;-ms-transition:width .5s, height .5s;-o-transition:width .5s, height .5s;-webkit-transition:width .5s, height .5s;height:70px!important;margin:33px auto;transition:width .5s, height .5s;width:192px!important}
+#unalTop .logo .diag{background:transparent;position:absolute;width:242px}
+#unalTop .seal{position:absolute;right:10px;top:37px;z-index:2}
+#unalTop .tx-srlanguagemenu{float:right;margin:0 5px}
+#unalTop .tx-srlanguagemenu .btn{background:transparent;border:none;color:#fff}
+#unalTop .navbar-collapse{padding-left:0;padding-right:0}
+#unalTop ul.socialLinks{display:inline-block;float:right;margin:0 5px 0 20px;padding:0}
+#unalTop ul.socialLinks li{float:left;margin:5px 2px;padding:0}
+#unalTop ul.socialLinks li a{display:block;height:20px;width:20px}
+#unalTop ul.socialLinks li a.twitter,#unalTop ul.socialLinks li a.facebook,#unalTop ul.socialLinks li a.email,#unalTop ul.socialLinks li a.rss{background:no-repeat 0 0 url(../images/icnSocial.png)}
+#unalTop ul.socialLinks li a.twitter:hover{background-position:0 -21px}
+#unalTop ul.socialLinks li a.facebook{background-position:-21px 0}
+#unalTop ul.socialLinks li a.facebook:hover{background-position:-21px -21px}
+#unalTop ul.socialLinks li a.email{background-position:-42px 0}
+#unalTop ul.socialLinks li a.email:hover{background-position:-42px -21px}
+#unalTop ul.socialLinks li a.rss{background-position:-63px 0}
+#unalTop ul.socialLinks li a.rss:hover{background-position:-63px -21px}
+#unalTop .nav>li>a:hover,#unalTop .nav>li>a:focus{text-decoration:underline}
+.navigation{background:url(../images/navigationBack.png);color:#fff;height:80px;position:relative}
+.navigation .site-url{background:no-repeat 0 0 url(../images/locDot.png);clear:both;float:left;font-size:24px;height:17px;line-height:18px;margin:12px 10px 10px 250px;padding:0 0 0 20px}
+.navigation .navbar-{clear:both;margin:0 0 0 240px}
+/**Buscador*/
+#unalTop .buscador{-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;background:none;border-radius:5px;color:#FFF;height:30px;margin:0;overflow:hidden;position:absolute;right:180px;top:36px;width:200px}
+#unalTop .buscador .gsc-control-searchbox-only .gsc-input{background-image:none!important}
+#unalTop .buscador .gsc-control-searchbox-only .gsc-search-box{height:30px;margin:0;position:relative}
+#unalTop .buscador .gsc-control-searchbox-only .gsc-input input{background:none;border:none;color:white;display:inline;height:auto;margin:3px 0 0 3px;outline:none;padding:11px 40px 7px 9px;top:1px;width:290px}
+#unalTop .buscador .gsc-input-box-focus{-moz-box-shadow:none!important;-webkit-box-shadow:none!important}
+#unalTop .buscador .gsc-search-button{-moz-border-radius:0;-webkit-border-radius:0;background:#50992E;border:0 none;border-radius:0;box-shadow:none;cursor:pointer;float:right;height:40px!important;padding:0;width:40px!important}
+#unalTop .buscador .gsc-search-button input.gsc-search-button{border:none;box-shadow:none;margin:0;outline:none;padding:0}
+#unalTop .buscador .gsc-control-searchbox-only .gsc-input,.buscador .gsc-input-box{background:#777;border:none;color:#fff;padding:0!important}
+#unalTop .buscador .gsc-search-button input,.buscador .gsc-search-button{height:30px!important;width:30px!important}
+/**imagen fondo cabezote*/
+.home-image{overflow:hidden;position:absolute;top:30px;width:100%}
+/**listas desplegables*/
+.caret{border-left-width:4px;border-right-width:4px;border-top-width:4px;margin-left:6px}
+.dropdown-menu{background:#333;border-color:#222;min-width:0}
+.dropdown-menu>li>a{color:#e1e1e1;font-size:15px;padding:3px 10px}
+.dropdown-menu>li>a:before{-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out;float:left;height:20px;margin:0 10px 0 0;opacity:0.5;padding:0;transition:all .5s ease-in-out;width:80px}
+.dropdown-menu>li>a:hover:before{opacity:1}
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{background:#4b4b4b;color:#e1e1e1;text-decoration:none}
+/** barra de servicios*/
+#services{background:repeat-y #333 url(../images/servicesBck.png);position:fixed;right:-800px;top:0;transition:all .25s ease-out;z-index:20000}
+#services.active{right:0}
+#services ul{margin:0;overflow-x:hidden;padding:0 10px}
+#services ul li{border-bottom:1px solid #222;border-top:1px solid #444;height:52px;padding:10px 0;width:240px}
+#services ul li:hover{background:#444}
+#services ul li:first-child{border-top:none}
+#services ul li:last-child{border-bottom:none}
+#services ul li a{color:#fff;font-size:.9em;line-height:33px;white-space:nowrap}
+#services ul li img{display:block;float:left;height:32px;margin:0 5px;width:32px}
+#services .indicator{background-color:#50992E;background-image:url(../images/backServices.png);background-position:0 0;cursor:pointer;height:126px;left:-34px;position:absolute;top:150px;width:34px}
+#services .indicator:hover{background-position:0 -127px}
+#services .indicator.active{background-position:-34px 0}
+#services .indicator.active:hover{background-position:-34px -127px}
+.row-offcanvas{-moz-transition:all .25s ease-out;-webkit-transition:all .25s ease-out;position:relative;transition:all .25s ease-out}
+/** detalle */
+main.detalle .breadcrumb-class{border-bottom:1px dotted #646464;color:#323232;line-height:30px;margin:50px 0 0}
+.breadcrumb-class a{color:#ececeb;font-size:1em}
+.btn-default .caret{border-top-color:#50992E;margin-left:6px}
+.navigation .btn{background:none;border:none;box-shadow:none!important;color:#fff;font-size:1.125em;letter-spacing:.025em;margin:0 3px 0 0;text-shadow:none;text-transform:uppercase;width:auto}
+.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open .dropdown-toggle.btn-default{background-color:#666;border-color:#333;color:#fff}
+.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-nav>.open>a:focus{background-color:#333}
+main.main-home{display:table;float:right;height:679px;margin:0 30px 0 0;overflow:hidden;position:relative}
+main.detalle{margin:0 15% 50px}
+main.detalle .csc-default{margin:20px auto 5px}
+main.detalle .csc-default .csc-header{color:#50992E;margin-bottom:20px}
+main.detalle .csc-frame-frame1{border-bottom:dotted 1px #50992E;color:#4b4b4b;font-family:"Ancizar serif", "MS Serif", "New York", serif;font-size:1.5em;line-height:30px!important;margin-bottom:30px;padding:0 0 20px;text-align:left}
+main.detalle .csc-frame-frame1 strong,main.detalle .csc-frame-frame1 b,main.detalle .csc-frame-frame1 a{font-family:"Ancizar serif", "MS Serif", "New York", serif}
+main.detalle .csc-frame-frame1 em,main.detalle .csc-frame-frame1 i{font-family:"Ancizar serif", "MS Serif", "New York", serif}
+main.detalle .btn-default:hover,main.detalle .btn-default:focus,main.detalle .btn-default:active,main.detalle .btn-default.active,main.detalle .open .dropdown-toggle.btn-default{background-color:#323232;border-color:#191919;color:#e1e1e1}
+main.detalle .btn-default{text-shadow:none}
+main.detalle h1.csc-firstHeader,main.detalle h1{color:#4f4f4f;font-size:40px;margin-top:40px}
+main.detalle p.bodytext{color:#4b4b4b;font-size:1.3em;line-height:1.5em;margin-bottom:15px;text-align:left}
+main.detalle .rightside h1{color:#4f4f4f;font-size:25px;margin-top:0}
+main.detalle h2{color:#4f4f4f;font-size:30px;margin-top:20px}
+main.detalle .rightside h2{font-size:20px}
+main.detalle h3{border-bottom:1px solid #a0a0a0;color:#323232;font-size:25px;margin-top:20px}
+main.detalle .rightside h3{border-bottom:none;font-size:20px}
+main.detalle .rightside p.bodytext{text-align:left}
+main.detalle ol li,main.detalle ul li{border-bottom:1px dotted #969696;font-size:1.3em;line-height:1.5em;padding-bottom:10px;padding-top:10px;text-align:left}
+main.detalle ul li{list-style-image:url(../images/bullet.png)}
+main.detalle ol li:last-child,main.detalle ul li:last-child{border-bottom:none!important}
+main.detalle a{color:#50992E}
+main.detalle a:hover{color:#4b4b4b;text-decoration:underline}
+/**Pie de página*/
+footer{background:#666;bottom:0;clear:both;color:#DDD;font-size:.9em;height:auto;margin:0!important;position:relative}
+footer .row{margin:0 25px}
+footer .btn-group{margin:0;width:49%}
+footer .btn-group .btn{background:none;border:none;box-shadow:none!important;color:#fff;font-size:1em;margin-bottom:2px;padding:0;text-align:left;text-shadow:none;white-space:normal}
+footer .btn-group .btn:hover{background:none!important;text-decoration:underline}
+footer .gobiernoLinea{margin:20px 0;padding:0}
+footer .footer-info{border-left:1px solid #4b4b4b!important;border-right:1px solid #4b4b4b!important;margin:20px 0!important;padding:0!important}
+footer .footer-info .csc-frame-indent{float:left;text-align:right;width:48%}
+footer .footer-info .csc-frame-indent p{line-height:20px;margin-bottom:0;margin-right:10%}
+footer .footer-info .csc-frame-indent p b{font-size:1.0625em}
+footer .footer-info .csc-frame-indent:first-child{text-align:left}
+footer .footer-info .csc-frame-indent:first-child p{margin-left:10%;margin-right:0}
+footer .logos{margin:20px 0;text-align:center}
+footer .logos .clear{clear:both}
+footer .imgAgencia{clear:right}
+footer a{color:#FFF!important;text-decoration:none}
+footer a:hover{text-decoration:underline}
+div.divider > hr{border-color:#50992e!important}
+/**Estilos especificos para internet explorer*/
+.oldie *,.ie9 *,.oldie a:hover{filter:none!important}
+.oldie footer{background:#666;width:100%}
+.oldie .navbar- .btn-group{float:left}
+.oldie .col-lg-4{width:32%}
+#enlaces-descargas {display:block;margin:0 auto}
+#enlaces-descargas > a {position:relative;display:block;margin:0 0 1em 0;background-color:#50992e;padding:1em;-ms-border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;border-radius:5px;transition:all .25s ease-in-out;box-sizing:border-box;border:1px solid #84bf05;border-radius:5px;box-shadow:0 0 5px 0 rgba(0,0,0,0.25);-khtml-border-radius:5px;-khtml-box-shadow:0 0 5px 0 rgba(0,0,0,0.25);-moz-appearance:none;-moz-border-radius:5px;-moz-box-shadow:0 0 5px 0 rgba(0,0,0,0.25);-moz-box-sizing:border-box;-moz-transition:all .25s ease-in-out;-ms-appearance:none;-ms-border-radius:5px;-ms-box-shadow:0 0 5px 0 rgba(0,0,0,0.25);-ms-transition:all .25s ease-in-out;-o-appearance:none;-o-border-radius:5px;-o-box-shadow:0 0 5px 0 rgba(0,0,0,0.25);-o-transition:all .25s ease-in-out;-webkit-appearance:none;-webkit-border-radius:5px;-webkit-box-shadow:0 0 5px 0 rgba(0,0,0,0.25);-webkit-box-sizing:border-box;-webkit-transition:all .25s ease-in-out;appearance:none}
+#enlaces-descargas > a > img {margin:0 0.75em 0 0;position:absolute;margin:auto;top:0;bottom:0;left:0.5em;width:47px;height:47px;}
+#enlaces-descargas > a > p {color:#fff;font-size:1em;font-style:italic;padding-left:50px;line-height:1.5em}
+#enlaces-descargas > a:hover{background:#4f4f4f;border-color:#202020}
+#enlaces-descargas > a:hover > p{color:#fff;text-decoration:underline;}
+#p-inicio { 
+  font: 100% sans-serif;
+  color: #000000; /*#6E6E6E;*/
+  background-color:#F2F2F2;
+  padding:10px 10px 10px 10px; 
+}
+#p-convenio { 
+  font: 150% sans-serif;
+  color: #6E6E6E;
+   font-size: 14pt;
+
+}

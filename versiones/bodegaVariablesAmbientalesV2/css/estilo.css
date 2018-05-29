@@ -1,0 +1,96 @@
+.menu{
+    width: 900;
+}
+.opciones{
+    width: 200;
+}
+.titulo {
+    background-color: #58ACFA;
+    //58FAF4;
+    //color: #5858FA;
+    text-align: center;
+}
+.consulta{
+    text-align: center;
+}
+select{
+    width:300px;
+}
+.menuConsulta{
+    text-align: center;
+}
+.presentacionDer{
+    font:150%;
+
+}
+.titulo2{
+    text-align: center;
+}
+.cabecera {
+	text-transform: uppercase;
+	text-align: center;
+}
+.inicio{
+    background-color: #58ACFA;
+    //58FAF4;
+    width: 900;
+    //color: #5858FA;
+    //5858FA;
+}
+.presentacionDer{
+    text-align: center;
+}
+ul#menu {
+ background: #81DAF5;
+ width: 900px;
+ float: left;
+ padding: 5px;
+}
+   
+ul#menu li {
+ color: #5858FA;
+ float: left;
+ list-style: none;
+ margin: 0% 5%;
+}
+   
+ul#menu li:hover{
+ color: #aaa073;
+ cursor:pointer;
+}
+   
+ul#menu ul {
+ display: none;
+ position: absolute;
+ top: 49px;
+ background: #333;
+ color: #fff;
+ padding: 5px 0px 5px 5px;
+ margin: 0;
+ }
+   
+ul#menu ul li{
+ float: left;
+ color: #fff;
+ width:100%;
+ margin:0% 0%;
+}
+  
+ul#menu ul li a{
+ color: #fff;
+}
+   
+ul#menu ul li a:hover{
+ color: #aaa073;
+ cursor:pointer;
+}
+   
+ul#menu li:hover ul ul,ul#menu li:hover ul ul ul,ul#menu li.iehover ul ul,ul#menu li.iehover ul ul ul {
+ display: none;
+ cursor:pointer;
+}
+   
+ul#menu li:hover ul,ul#menu ul li:hover ul,ul#menu ul ul li:hover ul,ul#menu li.iehover ul,ul#menu ul li.iehover ul,ul#menu ul ul li.iehover ul {
+ display: block;
+ cursor:pointer;
+}

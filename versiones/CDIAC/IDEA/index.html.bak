@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie lang_0" id="html"> <![endif]-->
+<!--[if IE 7]> <html class="no-js ie7 oldie lang_0" id="html"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8 oldie lang_0" id="html"> <![endif]-->
+<!--[if gt IE 8]> <!-->
+<html class="no-js ie9 lang_0" id="html">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon; charset=binary">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon; charset=binary">
+<title>Universidad Nacional de Colombia: Titulo página</title>
+<meta name="revisit-after" content="1 hour">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.5, user-scalable=yes">
+<base href="">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/unal.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/base.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/tablet.css" media="only screen and (min-width: 992px) and (max-width: 1199px)">
+<link rel="stylesheet" type="text/css" href="css/phone.css" media="only screen and (min-width: 768px) and (max-width: 991px)">
+<link rel="stylesheet" type="text/css" href="css/small.css" media="only screen and (max-width: 767px)">
+<script src="js/jquery.js" type="text/javascript"></script>
+
+<!-- acciones para formularios con la clase ".unal-form" -->
+<link rel="stylesheet" type="text/css" href="css/form.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css" media="all">
+<script src="js/bootstrap-select.min.js" type="text/javascript"></script>
+<script>jQuery(document).ready(function($){$('select','form').selectpicker();})</script>
+<!-- fin acciones para formulario -->
+
+<!--[if lt IE 9]><script src="js/html5shiv.js" type="text/javascript"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js" type="text/javascript"></script><![endif]-->
+</head>
+<body>
+<header id="unalTop">
+<div class="logo">
+	<a href="http://unal.edu.co">
+	<img alt="Escudo de la Universidad Nacional de Colombia" src="images/escudoUnal.png" width="189" height="70" title="Escudo de la Universidad Nacional de Colombia"/>
+	</a>
+	<div class="diag">
+	</div>
+</div>
+<div class="seal">
+	<img alt="Escudo de la República de Colombia" src="images/sealColombia.png" width="66" height="66" title="Escudo de la República de Colombia"/>
+</div>
+<div class="firstMenu">
+	<div class="btn-group tx-srlanguagemenu">
+		<div class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			 ES <span class="caret"></span>
+		</div>
+		<ul class="dropdown-menu" role="menu">
+		</ul>
+	</div>
+</div>
+<div class="navigation">
+	<div class="site-url">
+		<div class="icon">
+		</div>
+		nombresitio.unal.edu.co
+	</div>
+	<div class="navbar-">
+		<div class="btn-group">
+			<div class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				La Universidad<span class="caret"></span>
+			</div>
+			<ul class="dropdown-menu">
+				<li><a href="http://unal.edu.co/la-universidad/naturaleza/" target="_self">Naturaleza</a></li>
+				<li><a href="http://unal.edu.co/la-universidad/mision-y-vision/" target="_self">Misión y Visión</a></li>
+				<li><a href="http://unal.edu.co/la-universidad/historia/" target="_self">Historia</a></li>
+				<li><a href="http://unal.edu.co/la-universidad/ubicacion/" target="_self">Ubicación</a></li>
+				<li><a href="http://unal.edu.co/la-universidad/recorrido-virtual/" target="_self">Recorrido virtual</a></li>
+				<li><a href="http://unal.edu.co/la-universidad/estructura/" target="_self">Estructura</a></li>
+			</ul>
+		</div>
+		<div class="btn-group">
+			<div class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				Sedes<span class="caret"></span>
+			</div>
+			<ul class="dropdown-menu">
+				<li><a href="http://unal.edu.co/sedes/presencia-nacional/" target="_self">Presencia nacional</a></li>
+				<li><a href="http://www.imani.unal.edu.co" target="_top">Amazonia</a></li>
+				<li><a href="http://www.bogota.unal.edu.co" target="_top">Bogotá</a></li>
+				<li><a href="http://www.caribe.unal.edu.co/CMS/" target="_top">Caribe</a></li>
+				<li><a href="http://www.manizales.unal.edu.co" target="_top">Manizales</a></li>
+				<li><a href="http://www.medellin.unal.edu.co" target="_top">Medellín</a></li>
+				<li><a href="http://www.orinoquia.unal.edu.co" target="_top">Orinoquia</a></li>
+				<li><a href="http://www.palmira.unal.edu.co" target="_top">Palmira</a></li>
+				<li><a href="http://www.tumaco-pacifico.unal.edu.co" target="_top">Tumaco</a></li>
+			</ul>
+		</div>
+		<div class="btn-group">
+			<div class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				Investigación<span class="caret"></span>
+			</div>
+			<ul class="dropdown-menu">
+				<li><a href="http://www.hermes.unal.edu.co/" target="_top">Sistema de información de la investigación</a></li>
+				<li><a href="http://168.176.56.213/repositorios/?pt=3" target="_top">Doctorados y maestrías</a></li>
+				<li><a href="http://www.investigacion.unal.edu.co/index.php/laboratorios-e-infraestructura" target="_top">Laboratorios e infraestructura</a></li>
+				<li><a href="http://www.investigacion.unal.edu.co/index.php/proyectos" target="_top">Proyectos</a></li>
+				<li><a href="http://www.investigacion.unal.edu.co/index.php/apoyo-a-la-investigacion" target="_top">Apoyo a la investigación</a></li>
+			</ul>
+		</div>
+		<div class="btn-group">
+			<div class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				Internacionalización<span class="caret"></span>
+			</div>
+			<ul class="dropdown-menu">
+				<li><a href="http://unal.edu.co/internacionalizacion/la-universidad-en-el-mundo/" target="_self">La Universidad en el mundo</a></li>
+				<li><a href="http://www.investigacion.unal.edu.co/index.php/mapa-servicios/investigacion-internacional" target="_blank">Investigación internacional</a></li>
+				<li><a href="http://www.dre.unal.edu.co/nc/esx/movilidad/entrante.html" target="_top">Estudiantes extranjeros</a></li>
+				<li><a href="http://www.dre.unal.edu.co/movilidad.html" target="_top">Movilidad</a></li>
+				<li><a href="http://www.dre.unal.edu.co/convenios.html" target="_top">Convenios</a></li>
+			</ul>
+		</div>
+		<div class="btn-group">
+			<div class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				Formación<span class="caret"></span>
+			</div>
+			<ul class="dropdown-menu">
+				<li><a href="http://unal.edu.co/formacion/estudiar-en-la-universidad/" target="_self">Estudiar en la Universidad</a></li>
+				<li><a href="http://168.176.56.213/repositorios?pt=2" target="_top">Programas de Pregrado</a></li>
+				<li><a href="http://168.176.56.213/repositorios?pt=3" target="_top">Programas de Posgrado</a></li>
+				<li><a href="http://www.dne.unal.edu.co/es/" target="_blank">Cursos de educación continua y permanente</a></li>
+				<li><a href="http://www.virtual.unal.edu.co/unvPortal/index.do" target="_top">Educación virtual</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="buscador">
+	<gcse:searchbox-only resultsurl="http://unal.edu.co/resultados-de-la-busqueda/"></gcse:searchbox-only>
+</div>
+</header>
+<div id="services">
+	<div class="indicator">
+	</div>
+	<ul>
+		<li><img src="images/icnServEmail.png" width="32" height="32" border="0" alt=""><a href="http://correo.unal.edu.co" target="_top">Correo institucional</a></li>
+		<li><img src="images/icnServSia.png" width="32" height="32" border="0" alt=""><a href="http://www.sia.unal.edu.co" target="_top">Sistema de Información Académica</a></li>
+		<li><img src="images/icnServLibrary.png" width="32" height="32" border="0" alt=""><a href="http://www.sinab.unal.edu.co" target="_top">Bibliotecas</a></li>
+		<li><img src="images/icnServCall.png" width="32" height="32" border="0" alt=""><a href="http://168.176.5.43:8082/Convocatorias/indice.iface" target="_blank">Convocatorias</a></li>
+	</ul>
+</div>
+<div class="home-image">
+	<img src="img_demo.jpg" width="2000" height="80" border="0" alt="">
+</div>
+<main class="detalle">
+<div class="breadcrumb-class">
+	Está en:&nbsp;<a href="http://unal.edu.co" target="_self" title="Inicio">Inicio</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_self" title="La Universidad">Sección</a>&nbsp;&nbsp;/&nbsp;&nbsp;<b>Página</b>
+</div>
+<br>
+<div class="btn-group btn-group-justified" role="group">
+      <a href="#" class="btn btn-default" role="button">CUBE LINK 1</a>
+      <a href="#" class="btn btn-default" role="button">BODEGA LINK</a>
+      <a href="#" class="btn btn-default" role="button">Link 3</a>
+</div>
+<br>
+<center>
+<div style="position:relative"><img src="images/row-bot-bg.jpg" width=80% height=80%/><div style="position:absolute; top:30px; left:150px;">
+
+
+</div></div>
+</center>
+
+<div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12">
+		<div class="csc-default">
+			<div class="csc-header csc-header-n1">
+				<h1 class="csc-firstHeader">Contenido 100% (h1)</h1>
+			</div>
+			<p class="csc-frame-frame1">
+Lorem ipsum dolor sit amet, consectetur <b>adipiscing elit (b)</b>. Etiam ac tortor tincidunt, <strong>ultrices eros at (strong)</strong>, gravida libero. Integer consequat a ante eget vulputate. <i>Donec interdum(i)</i> hendrerit egestas. Nullam pharetra dui ut est ultrices, aliquam sollicitudin quam convallis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed euismod ultricies urna id euismod. Etiam sit amet dictum dolor, non tincidunt nulla. Ut in tempus lacus. Ut tincidunt nisi metus, vel congue lectus ullamcorper in.</p>
+			
+
+<p>Uso de header (h1,h2,h3)</p>
+		<h1>Vestibulum mollis risus felis (h1)</h1>
+		<h2>luctus tellus ullamcorper eu (h2)</h2>
+		<h3>Duis scelerisque eros scelerisque enim ullamcorper (h3)</h3>
+		<br/>
+		<br/>
+		<p>
+Lorem ipsum dolor sit amet, consectetur <b>adipiscing elit (b)</b>. Etiam ac tortor tincidunt, <strong>ultrices eros at (strong)</strong>, gravida libero. Integer consequat a ante eget vulputate. <i>Donec interdum(i)</i> hendrerit egestas. Nullam pharetra dui ut est ultrices, aliquam sollicitudin quam convallis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed euismod ultricies urna id euismod. Etiam sit amet dictum dolor, non tincidunt nulla. Ut in tempus lacus. Ut tincidunt nisi metus, vel congue lectus ullamcorper in.</p>
+		<br/>
+		<br/>
+		<div class="divider">(hr)<hr/></div>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-8 col-md-8">
+		<h1>Contenido a dos columnas</h1>
+		<a href="http://unal.edu.co">Link a unal.edu.co</a>
+		<br/>
+		<br/>		
+		<ul>
+			<li>Listas no ordenadas</li>
+			<li>Listas no ordenadas</li>
+			<li>Listas no ordenadas</li>
+		</ul>
+		<br/>
+		<br/>
+		<ol>
+			<li>Listas ordenadas</li>
+			<li>Listas ordenadas</li>
+			<li>Listas ordenadas</li>
+		</ol>	
+		<br/>
+		<br/>
+		<p>
+Lorem ipsum dolor sit amet, consectetur <b>adipiscing elit (b)</b>. Etiam ac tortor tincidunt, <strong>ultrices eros at (strong)</strong>, gravida libero. Integer consequat a ante eget vulputate. <i>Donec interdum(i)</i> hendrerit egestas. Nullam pharetra dui ut est ultrices, aliquam sollicitudin quam convallis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed euismod ultricies urna id euismod. Etiam sit amet dictum dolor, non tincidunt nulla. Ut in tempus lacus. Ut tincidunt nisi metus, vel congue lectus ullamcorper in. (p)</p>
+
+		<div class="divider">(hr)<hr/></div>
+		<br/>
+		<br/>
+		<form class="unal-form">
+			<label>label</label>  
+			<input type="text" value="type text"/>
+			<br/>
+			<label>input</label>  <input type="password" value="password"/>
+			<br/>
+			<input type="radio"/> <label>radio</label><br/>
+<input type="radio"/> <label>radio</label><br/>
+<input type="radio"/> <label>radio</label><br/>
+			<br/>
+
+			<input type="checkbox"/> <label>checkbox</label><br/>
+<input type="checkbox"/> <label>checkbox</label><br/>
+<input type="checkbox"/> <label>checkbox</label><br/>
+			<br/>
+			<textarea>textarea</textarea>
+			<br/>
+			<label>select</label>
+			<select>
+				<option>option 1</option>
+				<option>option 2</option>
+			</select>
+			<br/>
+			<input type="submit"/>
+		</form>
+	</div>
+	<div class="col-xs-12 col-sm-4 col-md-4 rightside">
+		<h2>Columna auxiliar</h2>
+		<p>Uso de header (h1,h2,h3)</p>
+		<h1>Vestibulum mollis risus felis (h1)</h1>
+		<h2>luctus tellus ullamcorper eu (h2)</h2>
+		<h3>Duis scelerisque eros scelerisque enim ullamcorper (h3)</h3>
+		<br/>
+		<br/>
+		
+
+		<br/>
+		<br/>
+		<p>
+Lorem ipsum dolor sit amet, consectetur <b>adipiscing elit (b)</b>. Etiam ac tortor tincidunt, <strong>ultrices eros at (strong)</strong>, gravida libero. Integer consequat a ante eget vulputate. <i>Donec interdum(i)</i> hendrerit egestas. Nullam pharetra dui ut est ultrices, aliquam sollicitudin quam convallis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed euismod ultricies urna id euismod. Etiam sit amet dictum dolor, non tincidunt nulla. Ut in tempus lacus. Ut tincidunt nisi metus, vel congue lectus ullamcorper in.</p>
+	</div>
+</div>
+</main>
+<footer>
+<div class="row">
+	<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 gobiernoLinea">
+		<div class="navbar-">
+			<div class="btn-group">
+				<a href="http://www.legal.unal.edu.co" target="_top">Régimen Legal</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://www.unal.edu.co/dnp" target="_top">Talento humano</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://www.unal.edu.co/contratacion/" target="_top">Contratación</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://www.unal.edu.co/dnp/" target="_top">Ofertas de empleo</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://www.unal.edu.co/rendicion_de_cuentas/2012/" target="_top">Rendición de cuentas</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://www.concursoprofesoralun.unal.edu.co/ConcursoDocente/news.php" target="_top">Concurso docente</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://www.pagovirtual.unal.edu.co/" target="_top">Pago Virtual</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://www.unal.edu.co/control_interno/index.html" target="_top">Control interno</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://www.simege.unal.edu.co" target="_top">Calidad</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://unal.edu.co/buzon-de-notificaciones/" target="_self">Buzón de notificaciones</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 gobiernoLinea gobiernoLinea2">
+		<div class="navbar-">
+			<div class="btn-group">
+				<a href="http://correo.unal.edu.co" target="_top">Correo institucional</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://unal.edu.co/mapa-del-sitio/" target="_self">Mapa del sitio</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://redessociales.unal.edu.co" target="_top">Redes Sociales</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://unal.edu.co/faq/" target="_self">FAQ</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://unal.edu.co/quejas-y-reclamos/" target="_self">Quejas y reclamos</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://unal.edu.co/atencion-en-linea/" target="_self">Atención en línea</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://unal.edu.co/encuesta/" target="_self">Encuesta</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://unal.edu.co/contactenos/" target="_self">Contáctenos</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://www.onp.unal.edu.co" target="_top">Estadísticas</a>
+			</div>
+			<div class="btn-group">
+				<a href="http://unal.edu.co/glosario/" target="_self">Glosario</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4 footer-info col-lg-4 col-sm-4 col-xs-12">
+		<div class="csc-frame csc-frame-indent">
+			<p class="bodytext">
+				<b>Contacto página web:<br/></b>Dirección<br/>Edif. XXXXXXXX -&nbsp;Of. XXX<br/>Bogotá D.C.,&nbsp; Colombia<br/>(+57 X) &nbsp;316 5000
+			</p>
+		</div>
+		<div class="csc-frame csc-frame-indent">
+			<p class="bodytext">
+				© Copyright 2014<br/>Algunos derechos reservados.<br/>
+				<a href="mailto:webmaster@unal.edu.co" title="Comuníquese con el webmaster de la Universidad Nacional de Colombia" class="mail">webmaster@unal.edu.co</a><br/><a href="http://unal.edu.co/acerca-de-este-sitio-web/" title="Acerca de la web de la Universidad Nacional de Colombia" target="_blank" class="internal-link">Acerca de este sitio web<br/></a>
+			</p>
+			<div class="csc-default">
+				<p>
+					Actualización: DD/MM/AAAA
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12 logos">
+		<a href="http://www.orgulloun.unal.edu.co"><img alt="Orgullo UN" src="images/log_orgullo.png" width="78" height="21" title="Orgullo UN"/></a>
+		<a href="http://www.agenciadenoticias.unal.edu.co/inicio.html" class="imgAgencia"><img alt="Agencia de Noticias" src="images/log_agenc.png" width="78" height="21" title="Agencia de Noticias"/></a>
+		<div class="clear">
+		</div>
+		<a href="http://www.gobiernoenlinea.gov.co/web/guest"><img alt="Programa gobierno en línea" src="images/log_gobiern.png" width="67" height="51" title="Programa gobierno en línea"/></a>
+		<a href="http://www.contaduria.gov.co/"><img alt="Contaduría general de la republica" src="images/log_contra.png" width="67" height="51" title="Contaduría general de la republica"/></a>
+	</div>
+</div>
+</footer>
+<script src="js/unal.js" type="text/javascript"></script>
+</body>
+</html>

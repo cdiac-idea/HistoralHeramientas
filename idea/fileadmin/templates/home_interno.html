@@ -1,0 +1,58 @@
+<f:layout name="Default" />
+<f:section name="content">
+<div id="contentDetalle">
+	<table>
+		<tr valign="top">
+			<td class="col2">
+				<div id="campanhaDetalle" class="campanhaDetalle">
+					<f:cObject typoscriptObjectPath="lib.campanha"></f:cObject>
+					<f:format.raw>{campanha}</f:format.raw>
+				</div>
+			</td>
+		</tr>
+	</table>
+    <f:cObject typoscriptObjectPath="lib.services"></f:cObject>
+    <f:format.raw>{services}</f:format.raw>
+</div>
+	<div id="articlesHomeInterno" class="articlesHomeInterno">
+		<table>
+			<tr  valign="top">
+				<td class="articles1">
+					<div>
+					<f:format.raw>{articles-1}</f:format.raw>
+					</div>
+				</td>
+				<td class="articles2a">
+					<f:format.raw>{articles-2}</f:format.raw>
+				</td>
+				<td class="articles3a">
+					<f:format.raw>{articles-3}</f:format.raw>
+				</td>
+				<td class="articles4a">
+					<f:format.raw>{articles-4}</f:format.raw>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2 class="articles2b">
+					<div>
+						<f:format.raw>{articles-2}</f:format.raw>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2 class="articles3b">
+					<div>
+						<f:format.raw>{articles-3}</f:format.raw>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2 class="articles4b">
+					<div>
+						<f:format.raw>{articles-4}</f:format.raw>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</f:section>

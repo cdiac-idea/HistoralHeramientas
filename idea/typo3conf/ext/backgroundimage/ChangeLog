@@ -1,0 +1,17 @@
+2014-08-04 Sven Burkert <bedienung@sbtheke.de>
+	* Small changes for TypoScript setup
+	* Change TYPO3 version dependency
+
+2013-07-15 Sven Burkert <bedienung@sbtheke.de>
+	* Relative URL to background image instead of absolute
+
+2013-06-27 Sven Burkert <bedienung@sbtheke.de>
+	* Changes in TypoScript (use of page.cssInline instead of page.headerData)
+	* Changes of manual
+
+2012-02-17 Sven Burkert <bedienung@sbtheke.de>
+	* Marked as stable
+	* Small changes in TypoScript and position of upload field in page properties and manual. Please check your TypoScript constants!
+
+20??-??-?? Sven Burkert <bedienung@sbtheke.de>
+	* Initial release

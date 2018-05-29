@@ -1,0 +1,90 @@
+      (function() {
+    var cx = '008572255874373046644:chip1p1uf-4';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+  
+  function checkBck(){
+    if(jQuery('.gsc-search-button input').attr('src')){
+        jQuery('.gsc-search-button input').attr('src','http://unal.edu.co/fileadmin/templates/plugins/ke_search/search.png')
+          jQuery('.gsc-input input').attr('placeholder','Buscar en la Universidad')
+          }else{
+        window.setTimeout(function(){checkBck()},100);
+          }
+  }
+ checkBck()     jQuery(document).ready(function($) {
+    $('body').addClass('row-offcanvas row-offcanvas-right');
+    $('#services').css({'right':parseInt($('#services').width())*-1})
+  $('.indicator','#services').click(function() {
+    $b=$('body');
+    $s=$('#services');
+    $s.height($(window).height())
+    $('ul',$s).height($(window).height())
+    $('.row-offcanvas').toggleClass('active');
+
+    if($b.hasClass('active')){
+      $b.css({'right':$('#services').width(),'overflow':'hidden'})
+      $s.css({'right':0})
+    }else{
+      $b.css({'right':0,'overflow':''})
+      $s.css({'right':parseInt($('#services').width())*-1})
+    }
+  });
+});    jQuery(document).ready(function($){
+    if(! $.cookie('showHelp')){
+       function startIntro(){
+        var intro = introJs();
+          intro.setOptions({
+            nextLabel:'Siguiente',
+            prevLabel:'Anterior',
+            showStepNumbers:true,
+            keyboardNavigation:true,
+            showButtons:true,
+            doneLabel:'Cerrar',
+            skipLabel:'Cerrar',
+            steps: [
+              {
+                element: '#unalTop .logo',
+                intro: "<div class=\"introjs-tooltiptext-title\"><h1>Bienvenidos al portal web de la Universidad Nacional de Colombia.</h1></div><div class=\"introjs-tooltiptext-text\"><p>Los invitamos a hacer un corto recorrido en el que podrán conocer las características y aspectos más destacados de este nuevo diseño del portal web de la universidad.</p><p>Para continuar con el recorrido, presione el botón <i>'Siguiente'</i> (o la tecla →). Por el contrario, si desea omitirlo y comenzar a navegar, presione el botón <i>'Cerrar'</i> (o la tecla Esc).</p></div>",
+                position:'right'
+              },
+              {
+                element: '#unalTop .navigation .site-url',
+                intro: "<div class=\"introjs-tooltiptext-title\"><h1>Siempre sabrá donde se encuentra.</h1></div><div class=\"introjs-tooltiptext-text\"><p>Hemos creado un sistema de direcciones URL de subdominios lógico y organizado, para que siempre sepa donde se encuentra y pueda acceder a los sitios y páginas web de la universidad de manera rápida y sencilla.</p><p>Además, ya no hará falta usar los caracteres <i>www</i> al inicio de la dirección URL para ingresar al sitio que desee.</p></div>",
+                position:'right'
+              },
+              {
+                element: '#unalTop .firstMenu ul.nav',
+                intro: "<div class=\"introjs-tooltiptext-title\"><h1>Páginas de inicio por tipo de usuario.</h1></div><div class=\"introjs-tooltiptext-text\"><p>Ahora encontrará la información y los servicios más relevantes para cada usuario, agrupados en una página de inicio personalizada.</p><p>En cualquier momento podrá acceder a la información de carácter nacional o por sedes.</p></div>",
+                position:'bottom'
+              },
+              {
+                element: '#info-home-wrapper',
+                intro: "<div class=\"introjs-tooltiptext-title\"><h1>Siempre informado.</h1></div><div class=\"introjs-tooltiptext-text\"><p>En la nueva columna de información, podrá enterarse rápidamente de la actualidad universitaria, noticias y eventos más próximos y relevantes.</p></div>",
+                position:'left'
+              },
+              {
+                element: '#services .indicator',
+                intro: '<div class=\"introjs-tooltiptext-title\"><h1>Pestaña de servicios.</h1></div><div class=\"introjs-tooltiptext-text\"><p>Desde ahora podrá tener a mano los servicios más relevantes para usted, que cambiarán y se adaptarán a cada perfil de usuario. Por ejemplo, el acceso al correo electrónico y las listas de convocatorias.</p></div>',
+                position:'left'
+              },
+              {
+                element: '#unalTop .logo',
+                intro: "<div class=\"introjs-tooltiptext-text\"><p>Hemos rediseñado este sitio web pensando en ustedes, los usuarios; debido a esto, estamos trabajando constantemente para mejorarlo. Pueden conocer más sobre este proceso de rediseño del portal web de la Universidad Nacional de Colombia en <a href=\"http://unal.edu.co/?id=131\" alt=\"Acerca del portal web de la Universidad Nacional de Colombia\" target=\"_blank\">Acerca de este sitio web</a>.</p><p>Las novedades no se detienen aquí; por ello los invitamos a recorrer el sitio web y descubrirlo por sí mismos. Para salir de este cuadro de diálogo y comenzar a navegar el sitio web, seleccione el botón <i>Cerrar</i>. ¡Gracias por su visita!</p></div>",
+                position:'right'
+              }
+            ]
+          });
+          intro.start();
+       }
+        startIntro();
+        var date = new Date();
+        date.setTime(date.getTime() + (1000 *  1000 *60 *60*24*365));
+        $.cookie('showHelp','1', { expires: date });
+      } //end if
+    })

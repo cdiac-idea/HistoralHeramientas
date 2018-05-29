@@ -1,0 +1,450 @@
+
+	<!-- START OF HEADER -->
+	<div class="header radius3">
+    	<div class="headerinner">
+        	
+            <a href="#"><img src="<?php echo base_url()?>lib/images/logo1.png" alt="" height="40" /></a>
+            
+              
+            <div class="headright">
+            	<div class="headercolumn">&nbsp;</div>
+            	<div id="searchPanel" class="headercolumn">
+                	<div class="searchbox">
+                        <form action="#" method="post">
+                            <input type="text" id="keyword" name="keyword" class="radius2" value="Search here" /> 
+                        </form>
+                    </div><!--searchbox-->
+                </div><!--headercolumn-->
+            	<div id="notiPanel" class="headercolumn">
+                    <div class="notiwrapper">
+                        <a href="ajax/messages.html" class="notialert radius2">5</a>
+                        <div class="notibox">
+                            <ul class="tabmenu">
+                                <li class="current"><a href="ajax/messages.html" class="msg">Messages (2)</a></li>
+                                <li><a href="ajax/activities.html" class="act">Recent Activity (3)</a></li>
+                            </ul>
+                            <br clear="all" />
+                            <div class="loader"><img src="<?php echo base_url()?>lib/images/loaders/loader3.gif" alt="Loading Icon" /> Loading...</div>
+                            <div class="noticontent"></div><!--noticontent-->
+                        </div><!--notibox-->
+                    </div><!--notiwrapper-->
+                </div><!--headercolumn-->
+                <div id="userPanel" class="headercolumn">
+                    <a href="#" class="userinfo radius2">
+                        <img src="images/avatar.png" alt="" class="radius2" />
+                        <span><strong>Justin Meller</strong></span>
+                    </a>
+                    <div class="userdrop">
+                        <ul>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Account Settings</a></li>
+                            <li><a href="index.html">Logout</a></li>
+                        </ul>
+                    </div><!--userdrop-->
+                </div><!--headercolumn-->
+            </div><!--headright-->
+        
+        </div><!--headerinner-->
+	</div><!--header-->
+    <!-- END OF HEADER -->
+        
+    <!-- START OF MAIN CONTENT -->
+    <div class="mainwrapper">
+     	<div class="mainwrapperinner">
+         	
+        <div class="mainleft">
+          	<div class="mainleftinner">
+            
+              	<div class="leftmenu">
+            		<ul>
+                    	<li class="current"><a href="dashboard.html" class="dashboard"><span>Dashboard</span></a></li>
+                        <li><a href="widgets.html" class="widgets"><span>Widgets</span></a></li>
+                        <li><a href="tables.html" class="tables"><span>Tables</span></a></li>
+                        <li><a href="elements.html" class="elements"><span>Elements</span></a></li>
+                        <li><a href="charts.html" class="charts"><span>Graphs &amp; Charts</span></a></li>
+                        <li><a href="media.html" class="media"><span>Media</span></a></li>
+                        <li><a href="form.html" class="editor menudrop"><span>Forms</span></a>
+                        	<ul>
+                            	<li><a href="form.html"><span>Form Styling</span></a></li>
+                            	<li><a href="editor.html"><span>WYSIWYG Editor</span></a></li>
+                                <li><a href="wizard.html"><span>Wizard</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="grid.html" class="grid"><span>Grid</span></a></li>
+                        <li><a href="calendar.html" class="calendar"><span>Calendar</span></a></li>
+                        <li><a href="buttons.html" class="buttons"><span>Buttons &amp; Icons</span></a></li>
+                        <li><a href="chat.html" class="chat"><span>Chat Support</span></a></li>
+                        <li><a href="404.html" class="error"><span>Error Pages</span></a></li>
+                    </ul>
+                        
+                </div><!--leftmenu-->
+            	<div id="togglemenuleft"><a></a></div>
+            </div><!--mainleftinner-->
+        </div><!--mainleft-->
+        
+        <div class="maincontent">
+        	<div class="maincontentinner">
+            	
+                <ul class="maintabmenu">
+                	<li class="current"><a href="dashboard.html">Dashboard</a></li>
+                </ul><!--maintabmenu-->
+                
+                <div class="content">
+                	<ul class="widgetlist">
+                    	<li><a href="calendar.html" class="events">Latest Events</a></li>
+                    	<li><a href="editor.html" class="message">New Message</a></li>
+                        <li><a href="dashboard.html" class="upload">Upload Image</a></li>
+                    	<li><a href="calendar.html" class="events">Statistics</a></li>
+                    	<li><a href="editor.html" class="message">New Message</a></li>
+                    </ul>
+                    
+                    <br clear="all" /><br />
+                    
+                    <div class="contenttitle">
+                    	<h2 class="chart"><span>Simple Chart</span></h2>
+                    </div><!--contenttitle-->
+                    <br />
+                    <div id="chartplace2" style="height:300px;"></div>
+                    
+                    <br /><br />
+                    
+                    <div class="one_half">
+                    
+                    	<div class="widgetbox">
+                        <div class="title"><h2 class="tabbed"><span>Latest Announcement</span></h2></div>
+                        <div class="widgetcontent announcement">
+                            <p>
+                            <span class="radius2">Jan 19, 2012</span> <br />Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                            <p>
+                            <span class="radius2">Jan 18, 2012</span> <br />Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                        </div><!--widgetcontent-->
+                    </div><!--widgetbox-->
+                        
+                    </div><!--one_half-->
+                    
+                    <div class="one_half last">
+                    
+                        <div class="widgetbox">
+                        <div class="title"><h2 class="tabbed"><span>Statements</span></h2></div>
+                        <div class="widgetcontent padding0 statement">
+                           <table cellpadding="0" cellspacing="0" border="0" class="stdtable">
+                           		<colgroup>
+                                    <col class="con0" />
+                                    <col class="con1" />
+                                    <col class="con0" />
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th class="head0">Date</th>
+                                        <th class="head1">Sales</th>
+                                        <th class="head0">Earnings</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01/12/12</td>
+                                        <td>10</td>
+                                        <td>$250.12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/11/12</td>
+                                        <td>5</td>
+                                        <td>$100.43</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/10/12</td>
+                                        <td>22</td>
+                                        <td>$1010.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/09/12</td>
+                                        <td>21</td>
+                                        <td>$1000.23</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/08/12</td>
+                                        <td>14</td>
+                                        <td>$500.22</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div><!--widgetcontent-->
+                    </div><!--widgetbox-->                        
+                    </div><!--one_half-->
+                    
+                    <br clear="all" /><br />
+                    
+                    <div class="one_half">
+                    	<div class="contenttitle">
+                            <h2 class="chart"><span>Icon Buttons With Text (80)</span></h2>
+                        </div><!--contenttitle-->
+                        <br />
+                    	<ul class="buttonlist">
+                            <li><a href="#" class="btn btn_search radius50"><span>Search</span></a></li>
+                            <li><a href="#" class="btn btn_trash"><span>Trash</span></a></li>
+                            <li><a href="#" class="btn btn_link"><span>Link</span></a></li>
+                        </ul>
+                    </div><!--one_half-->
+                    
+                    <div class="one_half last">
+                    	<div class="contenttitle">
+                            <h2 class="chart"><span>Icon Buttons Without Text (80)</span></h2>
+                        </div><!--contenttitle-->
+                        <br />
+                    	<ul class="buttonlist">
+                            <li><a href="#" class="btn btn3 btn_search"></a></li>
+                            <li><a href="#" class="btn btn3 btn_trash"></a></li>
+                            <li><a href="#" class="btn btn3 btn_flag"></a></li>
+                            <li><a href="#" class="btn btn3 btn_home"></a></li>
+                            <li><a href="#" class="btn btn3 btn_link"></a></li>
+                        </ul>
+                    </div><!--one_half-->
+                    
+                    <br clear="all" /><br />
+                    
+                    <div class="one_half">
+                    	<div class="contenttitle">
+                            <h2 class="chart"><span>Rounded Buttons With Text (80)</span></h2>
+                        </div><!--contenttitle-->
+                        <br />
+                    	<ul class="buttonlist">
+                            <li><a href="#" class="btn btn2 btn_search"><span>Search</span></a></li>
+                            <li><a href="#" class="btn btn2 btn_trash"><span>Trash</span></a></li>
+                            <li><a href="#" class="btn btn2 btn_flag"><span>Flag</span></a></li>
+                        </ul>
+                    </div><!--one_half-->
+                    
+                    <div class="one_half last">
+                    	<div class="contenttitle">
+                            <h2 class="chart"><span>Rounded Buttons Without Text (80)</span></h2>
+                        </div><!--contenttitle-->
+                        <br />
+                    	<ul class="buttonlist">
+                            <li><a href="#" class="btn btn4 btn_search"></a></li>
+                            <li><a href="#" class="btn btn4 btn_trash"></a></li>
+                            <li><a href="#" class="btn btn4 btn_flag"></a></li>
+                            <li><a href="#" class="btn btn4 btn_home"></a></li>
+                            <li><a href="#" class="btn btn4 btn_link"></a></li>
+                        </ul>
+                    </div><!--one_half-->
+                    
+                    <br clear="all" /><br />
+                    
+                    <div class="contenttitle">
+                    	<h2 class="widgets"><span>Notification Messages</span></h2>
+                    </div><!--contenttitle-->
+                    
+                    <br />
+                    
+                    <div class="notification msginfo">
+                        <a class="close"></a>
+                        <p>This is an information message.</p>
+                    </div><!-- notification msginfo -->
+                    
+                    <div class="notification msgsuccess">
+                        <a class="close"></a>
+                        <p>This is a success message.</p>
+                    </div><!-- notification msgsuccess -->
+                    
+                    <div class="notification msgalert">
+                        <a class="close"></a>
+                        <p>This is an alert message.</p>
+                    </div><!-- notification msgalert -->
+                    
+                    <div class="notification msgerror">
+                        <a class="close"></a>
+                        <p>This is an error message.</p>
+                    </div><!-- notification msgerror -->
+                    
+                    <br />
+                    
+                                    <div class="contenttitle radiusbottom0">
+                	<h2 class="table"><span>Table with Quick Edit/View</span></h2>
+                </div><!--contenttitle-->	
+                <table cellpadding="0" cellspacing="0" border="0" class="stdtable dashtable">
+                	<colgroup>
+                        <col class="con0" />
+                        <col class="con1" />
+                        <col class="con0" />
+                        <col class="con1" />
+                        <col class="con0" />
+                        <col class="con1" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th class="head0">Rendering engine</th>
+                            <th class="head1">Browser</th>
+                            <th class="head0">Platform(s)</th>
+                            <th class="head1">Engine version</th>
+                            <th class="head0">CSS grade</th>
+                            <th class="head1">&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th class="head0">Rendering engine</th>
+                            <th class="head1">Browser</th>
+                            <th class="head0">Platform(s)</th>
+                            <th class="head1">Engine version</th>
+                            <th class="head0">CSS grade</th>
+                            <th class="head1">&nbsp;</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td class="con0">Trident</td>
+                            <td class="con1">Internet Explorer 4.0</td>
+                            <td class="con0">Win 95+</td>
+                            <td class="center">4</td>
+                            <td class="center">X</td>
+                            <td class="center"><a href="ajax/tabledata.html" class="toggle">Quick View</a></td>
+                        </tr>
+                        <tr>
+                            <td>Trident</td>
+                            <td>Internet Explorer 5.0</td>
+                            <td>Win 95+</td>
+                            <td class="center">5</td>
+                            <td class="center">C</td>
+                            <td class="center"><a href="ajax/tabledata.html" class="toggle">Quick View</a></td>
+                        </tr>
+                        <tr>
+                            <td>Trident</td>
+                            <td>Internet  Explorer 5.5</td>
+                            <td>Win 95+</td>
+                            <td class="center">5.5</td>
+                            <td class="center">A</td>
+                            <td class="center"><a href="ajax/tabledata.html" class="toggle">Quick View</a></td>
+                        </tr>
+                        <tr>
+                            <td>Trident</td>
+                            <td>Internet Explorer 6</td>
+                            <td>Win 98+</td>
+                            <td class="center">6</td>
+                            <td class="center">A</td>
+                            <td class="center"><a href="ajax/tabledata.html" class="toggle">Quick View</a></td>
+                        </tr>
+                        <tr>
+                            <td>Trident</td>
+                            <td>Internet Explorer 7</td>
+                            <td>Win XP SP2+</td>
+                            <td class="center">7</td>
+                            <td class="center">A</td>
+                            <td class="center"><a href="ajax/tabledata.html" class="toggle">Quick View</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <br /><br />
+
+                    
+                </div><!--content-->
+                
+            </div><!--maincontentinner-->
+            
+            <div class="footer">
+            	<p>Starlight Admin Template &copy; 2012. All Rights Reserved. Designed by: <a href="#">ThemePixels.com</a></p>
+            </div><!--footer-->
+            
+        </div><!--maincontent-->
+        
+        <div class="mainright">
+        	<div class="mainrightinner">
+            	
+                <div class="widgetbox">
+                	<div class="title"><h2 class="chart"><span>Visitors Overview</span></h2></div>
+                    <div class="chartbox widgetcontent">
+                    	<div id="chartplace" class="chartplace"></div>
+                        
+                        <div class="one_half">
+                        	<div class="analytics analytics2">
+                                <small>Visitors For Today</small>
+                                <h1>23 321</h1>
+                                <small>18,222 unique</small>
+                            </div><!--visitoday-->
+                        </div><!--one_half-->
+                        
+                        <div class="one_half last">
+                        	
+                            <div class="one_half">
+                            	<div class="analytics">
+                                    <small>bounce</small>
+                                    <h3>23.2%</h3>
+                                </div><!--analytics-->
+                            </div><!--one_half-->
+                            
+                            <div class="one_half last">
+                            	<div class="analytics textright">
+                                    <small class="block">visitors</small>
+                                    <h3>56.8%</h3>
+                                </div><!--analytics-->
+                            </div><!--one_half last-->
+                            <br clear="all" />
+                            
+                            <div class="analytics average margintop10">
+                                Average <h3>87.44%</h3>
+                            </div><!--analytics-->
+                            
+                        </div><!--one_half-->
+                        
+                        
+                        <br clear="all" />
+                    </div><!--widgetcontent-->
+                </div><!--widgetbox-->
+                
+                
+                <div class="widgetbox">
+                	<div class="title"><h2 class="calendar"><span>Event Calendar</span></h2></div>
+                    <div class="widgetcontent padding0">
+                    	<div id="datepicker"></div>
+                    </div><!--widgetcontent-->
+                </div><!--widgetbox-->
+                
+                <div class="widgetbox">
+                	<div class="title"><h2 class="tabbed"><span>Tabbed Widget</span></h2></div>
+                    <div class="widgetcontent padding0">
+                    	<div id="tabs">
+                        	<ul>
+                                <li><a href="#tabs-1">Products</a></li>
+                                <li><a href="#tabs-2">Posts</a></li>
+                                <li><a href="#tabs-3">Media</a></li>
+                            </ul>
+                            <div id="tabs-1">
+                                <ul class="listthumb">
+                                	<li><img src="images/thumb/small/thumb1.png" alt="" /> <a href="#">Proin elit arcu, rutrum commodo</a></li>
+                                    <li><img src="images/thumb/small/thumb2.png" alt="" /> <a href="#">Aenean tempor ullamcorper leo</a></li>
+                                    <li><img src="images/thumb/small/thumb3.png" alt="" /> <a href="#">Vehicula tempus, commodo a, risus</a></li>
+                                    <li><img src="images/thumb/small/thumb4.png" alt="" /> <a href="#">Donec sollicitudin mi sit amet mauris</a></li>
+                                    <li><img src="images/thumb/small/thumb5.png" alt="" /> <a href="#">Curabitur nec arcu</a></li>
+                                </ul>
+                            </div>
+                            <div id="tabs-2">
+                                <ul>
+                                	<li><a href="#">Proin elit arcu, rutrum commodo</a></li>
+                                    <li><a href="#">Aenean tempor ullamcorper leo</a></li>
+                                    <li><a href="#">Vehicula tempus, commodo a, risus</a></li>
+                                    <li><a href="#">Donec sollicitudin mi sit amet mauris</a></li>
+                                    <li><a href="#">Curabitur nec arcu</a></li>
+                                </ul>
+                            </div>
+                            <div id="tabs-3">
+                                <ul class="thumb">
+                                	<li><a href="#"><img src="images/thumb/xsmall/thumb1.png" alt="" /></a></li>
+                                    <li><a href="#"><img src="images/thumb/xsmall/thumb2.png" alt="" /></a></li>
+                                    <li><a href="#"><img src="images/thumb/xsmall/thumb3.png" alt="" /></a></li>
+                                    <li><a href="#"><img src="images/thumb/xsmall/thumb4.png" alt="" /></a></li>
+                                    <li><a href="#"><img src="images/thumb/xsmall/thumb5.png" alt="" /></a></li>
+                                    <li><a href="#"><img src="images/thumb/xsmall/thumb6.png" alt="" /></a></li>
+                                    <li><a href="#"><img src="images/thumb/xsmall/thumb7.png" alt="" /></a></li>
+                                    <li><a href="#"><img src="images/thumb/xsmall/thumb8.png" alt="" /></a></li>
+                                </ul>     
+                        	</div>
+                        </div><!--#tabs-->
+                    </div><!--widgetcontent-->
+                </div><!--widgetbox-->
+                
+            </div><!--mainrightinner-->
+        </div><!--mainright-->
+                
+     	</div><!--mainwrapperinner-->
+    </div><!--mainwrapper-->
+	<!-- END OF MAIN CONTENT -->

@@ -1,0 +1,46 @@
+/**header*/
+#unalTop .firstMenu{height:54px}
+#unalTop .navbar-default .navbar-collapse{background:#222;left:0;margin:0;position:absolute;top:55px;width:100%;z-index:20000}
+#unalTop .navbar-nav>li{background-position:0 0;background-repeat:no-repeat;border-bottom:1px solid #4b4b4b;height:44px;padding:0 0 0 20px}
+#unalTop .navbar-nav>li:hover{background-repeat:repeat-x}
+#unalTop .navbar-nav>li a{font-size:20px!important;height:35px;padding:10px 6px 6px}
+#unalTop .navbar-nav>li a:hover{text-decoration:none!important}
+#unalTop .navbar-nav>li.active{background-position:0 0;background-repeat:repeat-x}
+#unalTop .navbar-nav>li.active>a{background:none!important}
+#unalTop .navbar- .dropdown-menu{right:35px;top:35px}
+#unalTop .logo{background:none;height:44px;margin:3px 0 0 3px;width:118px}
+#unalTop .logo img{height:44px!important;margin:0;width:118px!important}
+#unalTop .tx-srlanguagemenu{margin:8px 55px 0 0 !important}
+#unalTop .tx-srlanguagemenu .btn{border:1px solid #FFF}
+#unalTop ul.socialLinks{display:none}
+.navigation{height:35px}
+.navigation .site-url{font-size:15px;margin:10px 0 5px 14px}
+#unalTop .buscador{left:10px;margin:0 auto;position:absolute;right:5px;top:100px;width:auto}
+.navigation .navbar-{clear:both;float:left;margin:59px 0 10px!important;padding:5px 0 0;width:100%!important}
+.navigation .btn-group{clear:both;display:block;margin:0 auto!important;padding:0 35px 0 0;width:95%!important}
+.navigation .btn{background:#333;font-size:1em;margin:0 0 5px;padding:6px;text-align:right;width:100%!important}
+#unalTop .seal{right:3px;top:3px}
+#unalTop .seal>img{height:44px;width:44px}
+/**servicios*/
+#services ul li img{height:24px;margin:5px 2px 5px 0;width:24px}
+/**Detalle*/
+main.detalle .csc-frame-frame1{text-align:left}
+main.detalle{padding:0 30px 50px}
+main.detalle .breadcrumb-class{line-height:20px;margin:10px 0 0}
+main.detalle h1.csc-firstHeader,main.detalle .csc-header h1{margin-top:10px}
+/**Footer*/
+footer{padding:0 30px}
+footer .btn-group{width:100%}
+footer .gobiernoLinea{margin:12px auto}
+footer .gobiernoLinea2 .navbar- .btn-group a{float:right}
+footer .footer-info{border-right:none!important;border-top:1px solid #323232;margin:0 0 20px}
+footer .footer-info .csc-frame-indent{padding:10px 0 0;text-align:center;width:100%}
+footer .footer-info .csc-frame-indent:last-child{padding:0 0 10px;text-align:center}
+footer .col-xs-12{clear:both}
+footer .logos{border-top:1px solid #323232;display:block;margin:0 auto;padding:20px 0 30px}
+footer .imgAgenciaUN{display:inline-block;margin:0 20px}
+footer .imgGobiernoLinea{display:inline-block;margin:0 20px}
+footer .imgContaduria{display:inline-block;margin:0 20px}
+footer .logos .clear{display:none}
+footer .footer-info .csc-frame-indent:first-child{text-align:center}
+footer .footer-info .csc-frame-indent p{margin-left:0!important;margin-right:0!important}

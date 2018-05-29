@@ -1,0 +1,13 @@
+/**header*/
+#unalTop .tx-srlanguagemenu{float:right;margin:0 10px}
+.navigation .btn{font-size:1.1em;padding:6px}
+.navigation .site-url{font-size:18px;margin:10px 10px 5px 250px}
+.buscador.contentSearch{right:84px!important}
+/**footer*/
+footer .footer-info .csc-frame-indent:first-child p{margin-left:0}
+footer .btn-group{width:100%}
+footer .footer-info .csc-frame-indent{padding:0 0 0 30px;width:100%}
+footer .footer-info .csc-frame-indent:last-child{padding:0 0 0 30px;text-align:left}
+footer .imgAgenciaUN{margin:30px auto 0}
+footer .imgGobiernoLinea{margin:30px auto 0}
+footer .imgContaduria{margin:30px auto 0}

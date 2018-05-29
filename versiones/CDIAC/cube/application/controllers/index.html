@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+<?php
+function microtime_float()
+{
+list($useg, $seg) = explode(" ", microtime());
+return ((float)$useg + (float)$seg);
+}
+
+$tiempo_inicio = microtime_float();
+
+// hago un bucle, simplemente para hacer un script que tarde un poco
+for ($i=0; $i<3000000; $i++){
+}
+
+$tiempo_fin = microtime_float();
+$tiempo = $tiempo_fin - $tiempo_inicio;
+
+echo "Tiempo empleado: " . ($tiempo_fin - $tiempo_inicio); 
+
+
+?>

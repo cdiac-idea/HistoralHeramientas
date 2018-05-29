@@ -1,0 +1,345 @@
+﻿/********** TIPOS DE FUENTE UTILIZADAS ***********/
+/* Include fonts */
+@font-face {
+  font-family:'ancizar_sansbold_italic';
+  src:url('../fonts/ancizarsans_bold_italic-webfont.eot');
+  src:url('../fonts/ancizarsans_bold_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ancizarsans_bold_italic-webfont.woff') format('woff'), url('../fonts/ancizarsans_bold_italic-webfont.ttf') format('truetype'), url('../fonts/ancizarsans_bold_italic-webfont.svg#ancizar_sansbold_italic') format('svg');
+  font-weight:normal;
+  font-style:normal
+}
+@font-face {
+  font-family:'ancizar_sans_bold';
+  src:url('../fonts/ancizarsans_bold-webfont.eot');
+  src:url('../fonts/ancizarsans_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ancizarsans_bold-webfont.woff') format('woff'), url('../fonts/ancizarsans_bold-webfont.ttf') format('truetype'), url('../fonts/ancizarsans_bold-webfont.svg#ancizar_sans_boldbold') format('svg');
+  font-weight:normal;
+  font-style:normal
+}
+@font-face {
+  font-family:'ancizar_sansregular_italic';
+  src:url('../fonts/ancizarsans_italic-webfont.eot');
+  src:url('../fonts/ancizarsans_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ancizarsans_italic-webfont.woff') format('woff'), url('../fonts/ancizarsans_italic-webfont.ttf') format('truetype'), url('../fonts/ancizarsans_italic-webfont.svg#ancizar_sansregular_italic') format('svg');
+  font-weight:normal;
+  font-style:normal
+}
+@font-face {
+  font-family:'ancizar_sansregular';
+  src:url('../fonts/ancizarsans_regular-webfont.eot');
+  src:url('../fonts/ancizarsans_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ancizarsans_regular-webfont.woff') format('woff'), url('../fonts/ancizarsans_regular-webfont.ttf') format('truetype'), url('../fonts/ancizarsans_regular-webfont.svg#ancizar_sansregular') format('svg');
+  font-weight:normal;
+  font-style:normal
+}
+@font-face {
+  font-family:'ancizar_serifbold_italic';
+  src:url('../fonts/ancizarserif_bold_italic-webfont.eot');
+  src:url('../fonts/ancizarserif_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ancizarserif_bold_italic-webfont.woff') format('woff'),  url('../fonts/ancizarserif_bold_italic-webfont.ttf') format('truetype'),  url('../fonts/ancizarserif_bold_italic-webfont.svg#ancizar_serifbold_italic') format('svg');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'ancizar_serif_bold';
+  src:url('../fonts/ancizarserif_bold-webfont.eot');
+  src:url('../fonts/ancizarserif_bold-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ancizarserif_bold-webfont.woff') format('woff'),  url('../fonts/ancizarserif_bold-webfont.ttf') format('truetype'),  url('../fonts/ancizarserif_bold-webfont.svg#ancizar_serif_boldbold') format('svg');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'ancizar_serif_italic';
+  src:url('../fonts/ancizarserif_italic-webfont.eot');
+  src:url('../fonts/ancizarserif_italic-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ancizarserif_italic-webfont.woff') format('woff'),  url('../fonts/ancizarserif_italic-webfont.ttf') format('truetype'),  url('../fonts/ancizarserif_italic-webfont.svg#ancizar_serifregular_italic') format('svg');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:'ancizar_serif_regular';
+  src:url('../fonts/ancizarserif_regular-webfont.eot');
+  src:url('../fonts/ancizarserif_regular-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/ancizarserif_regular-webfont.woff') format('woff'),  url('../fonts/ancizarserif_regular-webfont.ttf') format('truetype'),  url('../fonts/ancizarserif_regular-webfont.svg#ancizar_serif_regularregular') format('svg');
+  font-weight:normal;
+  font-style:normal;
+}
+
+#migadepan
+{
+	height:0px;
+	visibility:hidden;
+}
+
+html,body,#allPage
+{
+height:100%;
+background-color:#FFFFFF";
+}
+
+.image-container>.header,.image-container>.header>#content
+{
+	height:100%
+}
+
+/*************** CONTENIDO *********************/
+@media only screen and (max-height:800px) {
+	#content{
+		min-height: 800px;
+	}
+}
+@media only screen and (max-height:1024px) {
+	#content{
+		min-height: 1024px;
+	}
+}
+
+
+#content{
+	min-height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index:0;
+}
+#content>table
+{
+	width:100%;
+}
+
+#content .col1{
+	width:0%;
+	height:100%;
+	z-index:0;
+}
+#content .col2{
+	width:100%;
+	max-width:90%;
+	z-index:0;
+}
+
+#content .col3{
+	width:0%;
+	z-index:0;
+}
+
+
+#content .info-home{
+	z-index:0;
+	margin-left:20px;
+	margin-top:30px;
+	height: 100%;
+	background-color: #b0c4de;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+#content .info-home .container{
+	z-index:0;
+	width:100%;
+}
+
+
+#content .info-home .csc-menu>li {
+  padding:6px 8px;
+  text-transform:uppercase;
+  font-size:1.125em;
+  letter-spacing:0.025em;
+  margin:0;
+  color:#fff;
+  text-shadow:none;
+  background:b0c4e6;
+  border:none;
+  box-shadow:none!important;
+  width:auto;
+}
+#content .info-home .csc-menu>li>a:hover, #content .info-home .csc-menu>li>a:focus {
+  color:#ffffff;
+  text-decoration:none;
+  background:#94b43b;
+
+}
+.campanha>div>iframe
+{
+	height:450px;
+}
+.campanha
+{
+	margin-top:30px;
+}
+/***********************************************/
+
+.glyphicon-barcode, .glyphicon-thumbs-up
+{
+background-image: url(../images/02_01.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: center;
+background-position-x: center;
+}
+.glyphicon-barcode:before, .glyphicon-thumbs-up:before
+{
+	display: none;
+}
+
+.glyphicon-tree-deciduous
+{
+background-image: url(../images/02_02.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: center;
+background-position-x: center;
+}
+.glyphicon-tree-deciduous:before
+{
+	display: none;
+}
+
+.glyphicon-tree-conifer
+{
+background-image: url(../images/02_03.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: center;
+background-position-x: center;
+}
+.glyphicon-tree-conifer:before
+{
+	display: none;
+}
+
+/******************** ARTICULOS INFERIORES ***********************/
+.services
+{
+	background: rgba(255, 255, 255, 0.7);
+}
+
+#articles{
+}
+#articles>table{
+	width:100%;
+}
+
+#articles .articles1{
+	width:20%;
+}
+#articles .articles2a, #articles .articles3a, #articles .articles4a{
+	width:20%;
+}
+#articles .articles1>div, #articles .articles2a>div, #articles .articles3a>div, #articles .articles4a>div
+{
+  background:url(../images/navigationback.png);
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  color:#fff;
+
+
+	margin-left:10px;
+	margin-right:10px;
+	height:100%;
+}
+
+#articles .articles1>div>div, #articles .articles2a>div>div, #articles .articles3a>div>div,#articles .articles4a>div>div
+{
+}
+
+#articles .articles2b, #articles .articles3b, #articles .articles4b
+{
+	background:url(../images/navigationback.png);
+	  opacity: 0.9;
+	  filter: alpha(opacity=90);
+	  color:#fff;
+	display:none;
+}
+
+#articles .articles4a>div #twitter-widget-0
+{
+	height:390px;
+}
+/******************************************************************/
+
+@media only screen and (max-height:800px) {
+	.campanha>div>iframe
+	{
+		height:400px;
+	}
+}
+
+
+@media only screen and (max-width:800px) {
+	.campanha>div>iframe
+	{
+		height:300px;
+	}
+	.navigation {
+#		  margin-left:10px;
+#		  margin-top:50px;
+	}
+	#articles .articles1{
+		width:100%;
+	}
+	#articles .articles1>div{
+		margin-left:10px;
+	}
+	#articles .articles2a, #articles .articles3a, #articles .articles4a, footer, .row, #content .col1, #content .col3 {
+		display: none;
+	}
+	#articles .articles2b, #articles .articles3b, #articles .articles4b{
+		display:block;
+	}
+	#articles .articles2b>div, #articles .articles3b>div, #articles .articles4b>div{
+		margin-left:10px;
+	}
+}
+
+#c545  .tx-jfmulticontent-pi1 .ui-widget-content
+{
+	background:none;
+	color:#FFFFFF;
+}
+#c545  .tx-jfmulticontent-pi1 .ui-widget-content .ui-widget-header
+{
+	background:none;
+	color:#FFFFFF;
+}
+#c545 .ui-state-active, #c545 .ui-widget-content .ui-state-active, #c545 .ui-widget-header .ui-state-active, #c545 .ui-widget-header .ui-state-active > a
+{
+#	width:30%;
+	color: #94b43b;
+
+#	color:blue;
+}
+
+#c545 .ui-state-default, #c545 .ui-widget-content .ui-state-default, #c545 .ui-widget-header .ui-state-default, #c545 .ui-widget-header .ui-state-default  > a
+{
+#  width:30%;
+}
+
+#c545 .ui-widget-header .ui-state-active > a, #c545 .ui-widget-header .ui-state-default  > a
+{
+	text-align: center;
+	width: 100%;
+}
+.ui-state-default
+{
+
+}
+
+.csc-sitemap{
+  color:#94b43b;
+/*  border-bottom:solid 1px #94b43b;*/
+  margin-bottom:20px
+}
+.csc-sitemap > ul > li ,.csc-sitemap > ul > li > a{
+  color: #323232;
+  font: 30px ancizar_serif_regular, "MS Serif", "New York", serif!important;
+  margin-top: 20px;
+  margin-bottom:20px;
+  border-bottom: 1px solid #a0a0a0;
+}
+.csc-sitemap > ul > li > ul > li > a, .csc-sitemap > ul > li > ul > li{
+  color: #323232;
+  font: 25px ancizar_serif_regular, "MS Serif", "New York", serif!important;
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+
+.csc-sitemap > ul > li > ul > li > ul > li, .csc-sitemap > ul > li > ul > li > ul > li > a, .csc-sitemap > ul > li > ul > li > ul > li > ul > li, .csc-sitemap > ul > li > ul > li > ul > li > ul > li > a, .csc-sitemap > ul > li > ul > li > ul > li > ul > li > ul > li , .csc-sitemap > ul > li > ul > li > ul > li > ul > li > ul > li > a , .csc-sitemap > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li , .csc-sitemap > ul > li > ul > li > ul > li > ul > li > ul > li  > ul > li > a, .csc-sitemap > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li , .csc-sitemap > ul > li > ul > li > ul > li > ul > li > ul > li  > ul > li  > ul > li > a{
+  list-style-image: url(../images/bullet.png);
+  font-size: 20px;
+  text-align: left;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}

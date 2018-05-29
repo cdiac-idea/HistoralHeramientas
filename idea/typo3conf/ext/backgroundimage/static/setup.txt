@@ -1,0 +1,13 @@
+page.cssInline.440 = TEXT
+page.cssInline.440.required = 1
+page.cssInline.440.data = levelfield :-1, tx_backgroundimage_background_image
+
+[globalVar = LIT:1 = {$plugin.backgroundimage.slide}]
+page.cssInline.440.data = levelfield :-1, tx_backgroundimage_background_image, slide
+[global]
+
+page.cssInline.440.wrap (
+{$plugin.backgroundimage.target} {
+	background: url("../uploads/tx_backgroundimage/|") {$plugin.backgroundimage.repeat} {$plugin.backgroundimage.color} {$plugin.backgroundimage.position} {$plugin.backgroundimage.attachment};
+}
+)

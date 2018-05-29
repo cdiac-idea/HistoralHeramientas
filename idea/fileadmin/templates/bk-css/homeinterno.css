@@ -1,0 +1,29 @@
+﻿#articlesHomeInterno{
+}
+#articlesHomeInterno>table{
+	width:100%;
+}
+
+#articlesHomeInterno .articles1, #articlesHomeInterno .articles2a, #articlesHomeInterno .articles3a, #articlesHomeInterno .articles4a{
+	width:25%;
+}
+#articlesHomeInterno .articles1>div, #articlesHomeInterno .articles2a>div, #articlesHomeInterno .articles3a>div, #articlesHomeInterno .articles4a>div
+{
+	margin-left:10px;
+	margin-right:10px;
+	height:100%;
+}
+
+#articlesHomeInterno .articles1>div>div, #articlesHomeInterno .articles2a>div>div, #articlesHomeInterno .articles3a>div>div,#articlesHomeInterno .articles4a>div>div
+{
+}
+
+#articlesHomeInterno .articles2b, #articlesHomeInterno .articles3b, #articlesHomeInterno .articles4b
+{
+	display:none;
+}
+
+#articlesHomeInterno .articles4a>div #twitter-widget-0
+{
+	height:390px;
+}

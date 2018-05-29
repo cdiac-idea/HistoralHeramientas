@@ -1,0 +1,48 @@
+﻿#migadepan
+{
+	margin-top:30px;margin-left:5%;margin-bottom:20px;
+	line-height: 30px;
+	border-bottom: 1px dotted #646464;
+	visibility:visible;
+	height:initial;
+}
+
+.articlesHomeInterno{
+	background-color: #ffffff; 
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+	z-index:0;
+	margin-left:5%;
+	margin-right:5%;
+	min-height:90%;
+}
+
+#articlesHomeInterno{
+}
+#articlesHomeInterno>table{
+	width:100%;
+}
+
+#articlesHomeInterno .articles1, #articlesHomeInterno .articles2a, #articlesHomeInterno .articles3a, #articlesHomeInterno .articles4a{
+	width:25%;
+}
+#articlesHomeInterno .articles1>div, #articlesHomeInterno .articles2a>div, #articlesHomeInterno .articles3a>div, #articlesHomeInterno .articles4a>div
+{
+	margin-left:10px;
+	margin-right:10px;
+	height:100%;
+}
+
+#articlesHomeInterno .articles1>div>div, #articlesHomeInterno .articles2a>div>div, #articlesHomeInterno .articles3a>div>div,#articlesHomeInterno .articles4a>div>div
+{
+}
+
+#articlesHomeInterno .articles2b, #articlesHomeInterno .articles3b, #articlesHomeInterno .articles4b
+{
+	display:none;
+}
+
+#articlesHomeInterno .articles4a>div #twitter-widget-0
+{
+	height:390px;
+}

@@ -1,0 +1,27 @@
+<?php
+    //inicio de html y parte del menu ademas de funciones con las consultas sql
+    include('soporte/inicio.php'); include('soporte/funciones.php'); 
+    $estacionHtml = "<option>Seleccione</option>"; $listaEstaciones=listRed();
+    if ($listaEstaciones) {
+        foreach ($listaEstaciones as $value) { $estacionHtml .= "<option value='".$value['red']."'>".$value['red']."</option>"; }
+    }else{ $estacionHtml .= "<option>NO HAY VALORES</option>"; }
+?>
+<h4>Administración de riesgos para sistema de filtración de datos</h4><br> 
+<center>
+<form action = "almacenarAdmi.php" method ="post" >
+    <label>Seleccione la Red:</label>
+    <select name="red" id="red" onchange="obtenerEstacion();"><?php echo $estacionHtml; ?></select><br><br>
+    <label>Seleccione la Estacion:</label>
+    <select name="idEstacion" id="idEstacion" onchange="obtenerVariable();"><option>Seleccione</option><!--?php echo $estacionHtml; ?--></select><br><br>
+    <label>Seleccione la variable:</label>
+    <select name="idVariable" id="idVariable" ><option>Seleccione</option></select><br><br>
+    <label>Valor mínimo permitido:</label><input name="minimo" id="minimo" value=""/><br><br>
+    <label>Valor máximo permitido:</label><input name="maximo" id="maximo" value=""/><br><br>
+    <label>Valor máximo permitido en la diferencia con el valor anterior:</label><input  value="" name="diferencia" id="diferencia" /><br><br>
+    <input name="aplica" id="aplica" type="radio" />Variable NO APLICA a la estación<br><br>
+    <input id="boton" name="Filtrado"  type="submit" value="Guardar"/>
+    <input id="boton" name="Cancelar" type="reset"  value="Cancelar"/>
+<?php
+    //contiene el final del html desde el cierre de la tabla y cierre de la coneccion BD
+    include('soporte/fin.php');
+?>

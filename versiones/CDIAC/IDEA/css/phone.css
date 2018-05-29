@@ -1,0 +1,24 @@
+#unalTop .logo{width:195px;height:112px;margin-left:0;background-size:contain}
+#unalTop .logo img{margin:28px auto;width:156px !important;height:58px !important}
+#unalTop .navigation{height:65px}
+#unalTop .navigation .navbar-{margin:0 0 0 195px;padding:5px 0 0 0}
+#unalTop .navigation .btn{font-size:11px;padding:6px 3px}
+#unalTop .navigation .site-url{margin:6px 0 0 200px;font-size:18px}
+#unalTop .seal{right:5px}
+#unalTop .seal>img{width:54px;height:54px}
+#unalTop .navbar-nav>li a{padding:6px 10px;font-size:12.5px}
+#unalTop .navbar-nav>li a{padding:4px 10px 5px 10px}
+#unalTop .dropdown-menu{font-size:11px;z-index:100000}
+#unalTop .tx-srlanguagemenu{margin:0 5px 0 5px}
+#unalTop ul.socialLinks{margin:0 0 0 10px}
+main.detalle{padding:0 30px 50px 30px}
+footer .btn-group{width:100%}
+footer .footer-info .csc-frame-indent{width:100%;padding:0 0 0 30px}
+footer .footer-info .csc-frame-indent:last-child{text-align:left;padding:0 0 0 30px}
+footer .imgAgenciaUN{margin:30px auto 0 auto}
+footer .imgGobiernoLinea{margin:30px auto 0 auto}
+footer .imgContaduria{margin:30px auto 0 auto}
+footer .logos .clear{display:none}
+.buscador.contentSearch{right:69px !important;width:200px !important}
+.home-image{height:65px;overflow:hidden}
+footer .footer-info .csc-frame-indent:first-child p{margin-left:0}

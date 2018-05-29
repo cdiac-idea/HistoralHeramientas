@@ -1,0 +1,443 @@
+<?php
+class FluidCache_Standalone_template_file_detalle_1725e479187a008308cf5930f259aab266f7f6ff extends \TYPO3\CMS\Fluid\Core\Compiler\AbstractCompiledTemplate {
+
+public function getVariableContainer() {
+	// TODO
+	return new \TYPO3\CMS\Fluid\Core\ViewHelper\TemplateVariableContainer();
+}
+public function getLayoutName(\TYPO3\CMS\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
+
+return 'Default';
+}
+public function hasLayout() {
+return TRUE;
+}
+
+/**
+ * section content
+ */
+public function section_040f06fd774092478d450774f5ba30c5da78acc8(\TYPO3\CMS\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
+$self = $this;
+$output0 = '';
+
+$output0 .= '
+<div id="contentDetalle">
+	<table>
+		<tr valign="top">
+			<td class="col2">
+				<div id="campanhaDetalle" class="campanhaDetalle">
+					';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper
+$arguments1 = array();
+$arguments1['typoscriptObjectPath'] = 'lib.campanha';
+$arguments1['data'] = NULL;
+$arguments1['currentValueKey'] = NULL;
+$arguments1['table'] = '';
+$renderChildrenClosure2 = function() use ($renderingContext, $self) {
+return NULL;
+};
+$viewHelper3 = $self->getViewHelper('$viewHelper3', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper');
+$viewHelper3->setArguments($arguments1);
+$viewHelper3->setRenderingContext($renderingContext);
+$viewHelper3->setRenderChildrenClosure($renderChildrenClosure2);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper
+
+$output0 .= $viewHelper3->initializeArgumentsAndRender();
+
+$output0 .= '
+					';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments4 = array();
+$arguments4['value'] = NULL;
+$renderChildrenClosure5 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'campanha', $renderingContext);
+};
+$viewHelper6 = $self->getViewHelper('$viewHelper6', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper6->setArguments($arguments4);
+$viewHelper6->setRenderingContext($renderingContext);
+$viewHelper6->setRenderChildrenClosure($renderChildrenClosure5);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output0 .= $viewHelper6->initializeArgumentsAndRender();
+
+$output0 .= '
+				</div>
+			</td>
+		</tr>
+	</table>
+    ';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper
+$arguments7 = array();
+$arguments7['typoscriptObjectPath'] = 'lib.services';
+$arguments7['data'] = NULL;
+$arguments7['currentValueKey'] = NULL;
+$arguments7['table'] = '';
+$renderChildrenClosure8 = function() use ($renderingContext, $self) {
+return NULL;
+};
+$viewHelper9 = $self->getViewHelper('$viewHelper9', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper');
+$viewHelper9->setArguments($arguments7);
+$viewHelper9->setRenderingContext($renderingContext);
+$viewHelper9->setRenderChildrenClosure($renderChildrenClosure8);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper
+
+$output0 .= $viewHelper9->initializeArgumentsAndRender();
+
+$output0 .= '
+    ';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments10 = array();
+$arguments10['value'] = NULL;
+$renderChildrenClosure11 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'services', $renderingContext);
+};
+$viewHelper12 = $self->getViewHelper('$viewHelper12', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper12->setArguments($arguments10);
+$viewHelper12->setRenderingContext($renderingContext);
+$viewHelper12->setRenderChildrenClosure($renderChildrenClosure11);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output0 .= $viewHelper12->initializeArgumentsAndRender();
+
+$output0 .= '
+</div>
+<div id="articlesDetalle">
+	<table>
+		<tr  valign="top">
+			<td class="articlesDetalle articlesDetalle1">
+				<div>
+				';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments13 = array();
+$arguments13['value'] = NULL;
+$renderChildrenClosure14 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'articles-1', $renderingContext);
+};
+$viewHelper15 = $self->getViewHelper('$viewHelper15', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper15->setArguments($arguments13);
+$viewHelper15->setRenderingContext($renderingContext);
+$viewHelper15->setRenderChildrenClosure($renderChildrenClosure14);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output0 .= $viewHelper15->initializeArgumentsAndRender();
+
+$output0 .= '
+				</div>
+			</td>
+			<td class="articlesDetalle articlesDetalle2a">
+				';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments16 = array();
+$arguments16['value'] = NULL;
+$renderChildrenClosure17 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'articles-2', $renderingContext);
+};
+$viewHelper18 = $self->getViewHelper('$viewHelper18', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper18->setArguments($arguments16);
+$viewHelper18->setRenderingContext($renderingContext);
+$viewHelper18->setRenderChildrenClosure($renderChildrenClosure17);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output0 .= $viewHelper18->initializeArgumentsAndRender();
+
+$output0 .= '
+			</td>
+			<td class="articlesDetalle articlesDetalle3a">
+				';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments19 = array();
+$arguments19['value'] = NULL;
+$renderChildrenClosure20 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'articles-3', $renderingContext);
+};
+$viewHelper21 = $self->getViewHelper('$viewHelper21', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper21->setArguments($arguments19);
+$viewHelper21->setRenderingContext($renderingContext);
+$viewHelper21->setRenderChildrenClosure($renderChildrenClosure20);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output0 .= $viewHelper21->initializeArgumentsAndRender();
+
+$output0 .= '
+			</td>
+		</tr>
+		<tr>
+			<td colspan=2 class="articlesDetalle articlesDetalle2b">
+				<div>
+					';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments22 = array();
+$arguments22['value'] = NULL;
+$renderChildrenClosure23 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'articles-2', $renderingContext);
+};
+$viewHelper24 = $self->getViewHelper('$viewHelper24', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper24->setArguments($arguments22);
+$viewHelper24->setRenderingContext($renderingContext);
+$viewHelper24->setRenderChildrenClosure($renderChildrenClosure23);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output0 .= $viewHelper24->initializeArgumentsAndRender();
+
+$output0 .= '
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=2 class="articlesDetalle articlesDetalle3b">
+				<div>
+					';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments25 = array();
+$arguments25['value'] = NULL;
+$renderChildrenClosure26 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'articles-3', $renderingContext);
+};
+$viewHelper27 = $self->getViewHelper('$viewHelper27', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper27->setArguments($arguments25);
+$viewHelper27->setRenderingContext($renderingContext);
+$viewHelper27->setRenderChildrenClosure($renderChildrenClosure26);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output0 .= $viewHelper27->initializeArgumentsAndRender();
+
+$output0 .= '
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+';
+
+return $output0;
+}
+/**
+ * Main Render function
+ */
+public function render(\TYPO3\CMS\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
+$self = $this;
+$output28 = '';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\LayoutViewHelper
+$arguments29 = array();
+$arguments29['name'] = 'Default';
+$renderChildrenClosure30 = function() use ($renderingContext, $self) {
+return NULL;
+};
+$viewHelper31 = $self->getViewHelper('$viewHelper31', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\LayoutViewHelper');
+$viewHelper31->setArguments($arguments29);
+$viewHelper31->setRenderingContext($renderingContext);
+$viewHelper31->setRenderChildrenClosure($renderChildrenClosure30);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\LayoutViewHelper
+
+$output28 .= $viewHelper31->initializeArgumentsAndRender();
+
+$output28 .= '
+';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\SectionViewHelper
+$arguments32 = array();
+$arguments32['name'] = 'content';
+$renderChildrenClosure33 = function() use ($renderingContext, $self) {
+$output34 = '';
+
+$output34 .= '
+<div id="contentDetalle">
+	<table>
+		<tr valign="top">
+			<td class="col2">
+				<div id="campanhaDetalle" class="campanhaDetalle">
+					';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper
+$arguments35 = array();
+$arguments35['typoscriptObjectPath'] = 'lib.campanha';
+$arguments35['data'] = NULL;
+$arguments35['currentValueKey'] = NULL;
+$arguments35['table'] = '';
+$renderChildrenClosure36 = function() use ($renderingContext, $self) {
+return NULL;
+};
+$viewHelper37 = $self->getViewHelper('$viewHelper37', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper');
+$viewHelper37->setArguments($arguments35);
+$viewHelper37->setRenderingContext($renderingContext);
+$viewHelper37->setRenderChildrenClosure($renderChildrenClosure36);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper
+
+$output34 .= $viewHelper37->initializeArgumentsAndRender();
+
+$output34 .= '
+					';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments38 = array();
+$arguments38['value'] = NULL;
+$renderChildrenClosure39 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'campanha', $renderingContext);
+};
+$viewHelper40 = $self->getViewHelper('$viewHelper40', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper40->setArguments($arguments38);
+$viewHelper40->setRenderingContext($renderingContext);
+$viewHelper40->setRenderChildrenClosure($renderChildrenClosure39);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output34 .= $viewHelper40->initializeArgumentsAndRender();
+
+$output34 .= '
+				</div>
+			</td>
+		</tr>
+	</table>
+    ';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper
+$arguments41 = array();
+$arguments41['typoscriptObjectPath'] = 'lib.services';
+$arguments41['data'] = NULL;
+$arguments41['currentValueKey'] = NULL;
+$arguments41['table'] = '';
+$renderChildrenClosure42 = function() use ($renderingContext, $self) {
+return NULL;
+};
+$viewHelper43 = $self->getViewHelper('$viewHelper43', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper');
+$viewHelper43->setArguments($arguments41);
+$viewHelper43->setRenderingContext($renderingContext);
+$viewHelper43->setRenderChildrenClosure($renderChildrenClosure42);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\CObjectViewHelper
+
+$output34 .= $viewHelper43->initializeArgumentsAndRender();
+
+$output34 .= '
+    ';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments44 = array();
+$arguments44['value'] = NULL;
+$renderChildrenClosure45 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'services', $renderingContext);
+};
+$viewHelper46 = $self->getViewHelper('$viewHelper46', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper46->setArguments($arguments44);
+$viewHelper46->setRenderingContext($renderingContext);
+$viewHelper46->setRenderChildrenClosure($renderChildrenClosure45);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output34 .= $viewHelper46->initializeArgumentsAndRender();
+
+$output34 .= '
+</div>
+<div id="articlesDetalle">
+	<table>
+		<tr  valign="top">
+			<td class="articlesDetalle articlesDetalle1">
+				<div>
+				';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments47 = array();
+$arguments47['value'] = NULL;
+$renderChildrenClosure48 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'articles-1', $renderingContext);
+};
+$viewHelper49 = $self->getViewHelper('$viewHelper49', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper49->setArguments($arguments47);
+$viewHelper49->setRenderingContext($renderingContext);
+$viewHelper49->setRenderChildrenClosure($renderChildrenClosure48);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output34 .= $viewHelper49->initializeArgumentsAndRender();
+
+$output34 .= '
+				</div>
+			</td>
+			<td class="articlesDetalle articlesDetalle2a">
+				';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments50 = array();
+$arguments50['value'] = NULL;
+$renderChildrenClosure51 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'articles-2', $renderingContext);
+};
+$viewHelper52 = $self->getViewHelper('$viewHelper52', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper52->setArguments($arguments50);
+$viewHelper52->setRenderingContext($renderingContext);
+$viewHelper52->setRenderChildrenClosure($renderChildrenClosure51);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output34 .= $viewHelper52->initializeArgumentsAndRender();
+
+$output34 .= '
+			</td>
+			<td class="articlesDetalle articlesDetalle3a">
+				';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments53 = array();
+$arguments53['value'] = NULL;
+$renderChildrenClosure54 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'articles-3', $renderingContext);
+};
+$viewHelper55 = $self->getViewHelper('$viewHelper55', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper55->setArguments($arguments53);
+$viewHelper55->setRenderingContext($renderingContext);
+$viewHelper55->setRenderChildrenClosure($renderChildrenClosure54);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output34 .= $viewHelper55->initializeArgumentsAndRender();
+
+$output34 .= '
+			</td>
+		</tr>
+		<tr>
+			<td colspan=2 class="articlesDetalle articlesDetalle2b">
+				<div>
+					';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments56 = array();
+$arguments56['value'] = NULL;
+$renderChildrenClosure57 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'articles-2', $renderingContext);
+};
+$viewHelper58 = $self->getViewHelper('$viewHelper58', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper58->setArguments($arguments56);
+$viewHelper58->setRenderingContext($renderingContext);
+$viewHelper58->setRenderChildrenClosure($renderChildrenClosure57);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output34 .= $viewHelper58->initializeArgumentsAndRender();
+
+$output34 .= '
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=2 class="articlesDetalle articlesDetalle3b">
+				<div>
+					';
+// Rendering ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+$arguments59 = array();
+$arguments59['value'] = NULL;
+$renderChildrenClosure60 = function() use ($renderingContext, $self) {
+return TYPO3\CMS\Fluid\Core\Parser\SyntaxTree\ObjectAccessorNode::getPropertyPath($renderingContext->getTemplateVariableContainer(), 'articles-3', $renderingContext);
+};
+$viewHelper61 = $self->getViewHelper('$viewHelper61', $renderingContext, 'TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper');
+$viewHelper61->setArguments($arguments59);
+$viewHelper61->setRenderingContext($renderingContext);
+$viewHelper61->setRenderChildrenClosure($renderChildrenClosure60);
+// End of ViewHelper TYPO3\CMS\Fluid\ViewHelpers\Format\RawViewHelper
+
+$output34 .= $viewHelper61->initializeArgumentsAndRender();
+
+$output34 .= '
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+';
+return $output34;
+};
+
+$output28 .= '';
+
+$output28 .= '
+';
+
+return $output28;
+}
+
+
+}
+#1519595813    17672     

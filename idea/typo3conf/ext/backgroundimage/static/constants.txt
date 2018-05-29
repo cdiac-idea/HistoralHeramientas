@@ -1,0 +1,8 @@
+plugin.backgroundimage {
+	slide = 1
+	target = body
+	repeat = no-repeat
+	color =
+	position =
+	attachment =
+}
